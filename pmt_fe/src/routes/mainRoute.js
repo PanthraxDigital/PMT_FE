@@ -4,7 +4,7 @@ import Body from "../components/body";
 import Aboutus from "../components/aboutus";
 import Contactus from "../components/contactus";
 import Projects from "../components/projects";
-import Solutions from "../components/solutions";
+import Services from "../components/services";
 
 class MainRoute extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class MainRoute extends React.Component {
         <Route path="/aboutus" component={Aboutus} />
         <Route path="/contactus" component={Contactus} />
         <Route path="/projects" component={Projects} />
-        <Route path="/solutions" component={Solutions} />
+        <Route path="/services" component={Services} />
         <Route path="/" component={Body} />
       </Switch>
     );

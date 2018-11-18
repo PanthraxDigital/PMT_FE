@@ -2,7 +2,7 @@ import React from "react";
 import bgImage2 from "../images/main-slider/image-6-1.jpg";
 import ServiceData from "../content/services";
 
-class Solutions extends React.Component {
+class Services extends React.Component {
   render() {
     return (
       <div>
@@ -104,4 +104,4 @@ class Solutions extends React.Component {
   }
 }
 
-export default Solutions;
+export default Services;

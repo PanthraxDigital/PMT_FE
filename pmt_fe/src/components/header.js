@@ -137,7 +137,7 @@ class Header extends React.Component {
                         <Link to="/aboutus">About Us</Link>
                       </li>
                       <li className="dropdown">
-                        <Link to="/solutions">Services</Link>
+                        <Link to="/services">Services</Link>
                       </li>
                       <li className="dropdown">
                         <Link to="/projects">Projects</Link>
@@ -229,7 +229,7 @@ class Header extends React.Component {
                         <Link to="/aboutus">About Us</Link>
                       </li>
                       <li className="dropdown">
-                        <Link to="/solutions">Services</Link>
+                        <Link to="/services">Services</Link>
                       </li>
                       <li className="dropdown">
                         <Link to="/projects">Projects</Link>
