@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
@@ -14,16 +15,16 @@ class Header extends React.Component {
                   <ul className="clearfix">
                     <li>Turning big ideas into great products</li>
                     <li>
-                      <a href="#">
+                      <Link to="/">
                         <span className="icon fa fa-globe" />
                         Jaipur, Rajasthan, IN
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/">
                         <span className="icon fa fa-volume-control-phone" /> +91
                         97852 02444 | +91 77920 51120
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -56,14 +57,14 @@ class Header extends React.Component {
               <div className="clearfix">
                 <div className="pull-left logo-outer">
                   <div className="logo">
-                    <a href="index.html">
+                    <Link to="/">
                       <img
                         src={require("../images/logo2.png")}
                         alt=""
                         title=""
-                        style={{width:"65%"}}
+                        style={{ width: "65%" }}
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -96,9 +97,9 @@ class Header extends React.Component {
 
                   {/* <!-- Info Box --> */}
                   <div className="upper-column info-box">
-                    <a href="contact.html" className="order-btn theme-btn">
+                    <Link to="/contactus" className="order-btn theme-btn">
                       Get a Quote
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -129,113 +130,26 @@ class Header extends React.Component {
                   <div className="navbar-collapse collapse clearfix">
                     <ul className="navigation clearfix">
                       <li className="current dropdown">
-                        <a href="index.html">Home</a>
+                        <Link to="/">Home</Link>
                       </li>
                       <li>
-                        <a href="about.html">About Us</a>
+                        <Link to="/aboutus">About Us</Link>
                       </li>
                       <li className="dropdown">
-                        <a href="solutions.html">Solutions</a>
-                        <div className="hideElement">
-                          <ul>
-                            <li>
-                              <a href="solutions.html">Solutions</a>
-                            </li>
-                            <li>
-                              <a href="chemical-eng.html">
-                                Chemical Engineering
-                              </a>
-                            </li>
-                            <li>
-                              <a href="power-eng.html">
-                                Energy & Power Engineering
-                              </a>
-                            </li>
-                            <li>
-                              <a href="gas-eng.html">Oil & Gas Engineering</a>
-                            </li>
-                            <li>
-                              <a href="civil-eng.html">Civil Engineering</a>
-                            </li>
-                            <li>
-                              <a href="agriculture-eng.html">
-                                Agriculture Engineering
-                              </a>
-                            </li>
-                            <li>
-                              <a href="solutions-detail.html">
-                                Mechanical Engineering
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        <Link to="/solutions">Solutions</Link>
                       </li>
                       <li className="dropdown">
-                        <a href="projects.html">Projects</a>
-                        <div className="hideElement">
-                          <ul>
-                            <li>
-                              <a href="projects.html">Our projects</a>
-                            </li>
-                            <li>
-                              <a href="projects-detail.html">
-                                Projects Details
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        <Link to="/projects">Projects</Link>
                       </li>
-
-                      <div className="hideElement">
-                        <li className="dropdown">
-                          <a href="#">News</a>
-                          <ul className="hideElement">
-                            <li>
-                              <a href="news.html">News Grid View</a>
-                            </li>
-                            <li>
-                              <a href="news-list.html">News List View</a>
-                            </li>
-                            <li>
-                              <a href="news-classNameic.html">News classNameic View</a>
-                            </li>
-                            <li>
-                              <a href="news-detail.html">News Details</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </div>
-                      <div className="hideElement">
-                        <li className="dropdown" className="hideElement">
-                          <a href="#">Shop</a>
-                          <ul>
-                            <li>
-                              <a href="shop.html">Shop</a>
-                            </li>
-                            <li>
-                              <a href="shop-single.html">Item Details</a>
-                            </li>
-                            <li>
-                              <a href="shoping-cart.html">Cart Page</a>
-                            </li>
-                            <li>
-                              <a href="checkout.html">Checkout Page</a>
-                            </li>
-                            <li>
-                              <a href="login.html">Login Page</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </div>
                       <li>
-                        <a href="contact.html">Contact us</a>
+                        <Link to="/contactus">Contact us</Link>
                       </li>
                     </ul>
                   </div>
                 </nav>
                 {/* <!-- Main Menu End --> */}
-                <div className="outer-box hideElement">
                   {/* <!-- Search Box --> */}
+                {/* <div className="outer-box hideElement">
                   <div className="dropdown dropdown-outer">
                     <button
                       className="search-box-btn dropdown-toggle"
@@ -271,7 +185,7 @@ class Header extends React.Component {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -282,9 +196,9 @@ class Header extends React.Component {
             <div className="auto-container clearfix">
               {/* <!-- Logo --> */}
               <div className="logo pull-left">
-                <a href="index.html" className="img-responsive">
+                <Link to="/" className="img-responsive">
                   <img src="images/logo-small.png" alt="" title="" />
-                </a>
+                </Link>
               </div>
 
               {/* <!-- Right Col --> */}
@@ -308,107 +222,20 @@ class Header extends React.Component {
                   <div className="navbar-collapse collapse clearfix">
                     <ul className="navigation clearfix">
                       <li className="current dropdown">
-                        <a href="#">Home</a>
-                    
+                        <Link to="/">Home</Link>
                       </li>
                       <li>
-                        <a href="about.html">About Us</a>
+                        <Link to="/aboutus">About Us</Link>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Solutions</a>
-                        <div className="hideElement">
-                          <ul>
-                            <li>
-                              <a href="solutions.html">Solutions</a>
-                            </li>
-                            <li>
-                              <a href="chemical-eng.html">
-                                Chemical Engineering
-                              </a>
-                            </li>
-                            <li>
-                              <a href="power-eng.html">
-                                Energy & Power Engineering
-                              </a>
-                            </li>
-                            <li>
-                              <a href="gas-eng.html">Oil & Gas Engineering</a>
-                            </li>
-                            <li>
-                              <a href="civil-eng.html">Civil Engineering</a>
-                            </li>
-                            <li>
-                              <a href="agriculture-eng.html">
-                                Agriculture Engineering
-                              </a>
-                            </li>
-                            <li>
-                              <a href="solutions-detail.html">
-                                Mechanical Engineering
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        <Link to="/solutions">Solutions</Link>
                       </li>
                       <li className="dropdown">
-                        <a href="#">Projects</a>
-                        <div className="hideElement">
-                          <ul>
-                            <li>
-                              <a href="projects.html">Our projects</a>
-                            </li>
-                            <li>
-                              <a href="projects-detail.html">
-                                Projects Details
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
+                        <Link to="/projects">Projects</Link>
                       </li>
 
-                      <li className="dropdown">
-                        <a href="#">News</a>
-                        <div className="hideElement">
-                          <ul>
-                            <li>
-                              <a href="news.html">News Grid View</a>
-                            </li>
-                            <li>
-                              <a href="news-list.html">News List View</a>
-                            </li>
-                            <li>
-                              <a href="news-classNameic.html">News classNameic View</a>
-                            </li>
-                            <li>
-                              <a href="news-detail.html">News Details</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </li>
-                      <div className="hideElement">
-                        <li className="dropdown">
-                          <a href="#">Shop</a>
-                          <ul>
-                            <li>
-                              <a href="shop.html">Shop</a>
-                            </li>
-                            <li>
-                              <a href="shop-single.html">Item Details</a>
-                            </li>
-                            <li>
-                              <a href="shoping-cart.html">Cart Page</a>
-                            </li>
-                            <li>
-                              <a href="checkout.html">Checkout Page</a>
-                            </li>
-                            <li>
-                              <a href="login.html">Login Page</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </div>
                       <li>
-                        <a href="contact.html">Contact us</a>
+                        <Link to="/contactus">Contact us</Link>
                       </li>
                     </ul>
                   </div>

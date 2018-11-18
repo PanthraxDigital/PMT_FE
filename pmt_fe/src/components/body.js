@@ -14,13 +14,13 @@ class Body extends React.Component {
     return (
       <React.Fragment>
         <MainSlider />
-        {/* <CallToAction />
+        <CallToAction />
         <Services />
         <About />
         <WorkProcess />
         <Project />
         <ContactInfo />
-        <ContactMap /> */}
+        <ContactMap />
       </React.Fragment>
     );
   }

@@ -260,11 +260,11 @@ class MainSlider extends React.Component {
                       textTransform: "left"
                     }}
                   >
-                    <a href="about.html" className="theme-btn btn-style-one">
+                    <a href="#" className="theme-btn btn-style-one">
                       Learn More
                     </a>
                     <a
-                      href="solutions.html"
+                      href="#"
                       className="theme-btn btn-style-two"
                     >
                       Our Solutions

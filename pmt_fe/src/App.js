@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import Header from "../src/components/header";
-import Body from "../src/components/body";
+import MainRoute from "../src/routes/mainRoute";
 import Footer from "../src/components/footer";
 
 class App extends Component {
@@ -9,7 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Body />
+
+        <MainRoute />
+
         <Footer />
       </div>
     );
