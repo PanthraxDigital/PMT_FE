@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 class Header extends React.Component {
   render() {
     return (
@@ -136,7 +137,7 @@ class Header extends React.Component {
                         <Link to="/aboutus">About Us</Link>
                       </li>
                       <li className="dropdown">
-                        <Link to="/solutions">Solutions</Link>
+                        <Link to="/solutions">Services</Link>
                       </li>
                       <li className="dropdown">
                         <Link to="/projects">Projects</Link>
@@ -228,7 +229,7 @@ class Header extends React.Component {
                         <Link to="/aboutus">About Us</Link>
                       </li>
                       <li className="dropdown">
-                        <Link to="/solutions">Solutions</Link>
+                        <Link to="/solutions">Services</Link>
                       </li>
                       <li className="dropdown">
                         <Link to="/projects">Projects</Link>
