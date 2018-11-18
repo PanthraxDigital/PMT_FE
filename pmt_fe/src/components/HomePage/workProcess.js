@@ -110,7 +110,7 @@ class WorkProcess extends React.Component {
                   </div>
                   <div className="lower-box">
                     <h3>
-                      <a href="solutions-detail.html">LANCH</a>
+                      <a href="solutions-detail.html">LAUNCH</a>
                     </h3>
                     <div className="text">
                       Bringing highly- <br />

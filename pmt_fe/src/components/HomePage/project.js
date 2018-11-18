@@ -1,5 +1,5 @@
 import React from "react";
-import { bgImage } from "../../images/background/2.jpg";
+import bgImage from "../../images/background/2.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -22,16 +22,16 @@ class Project extends React.Component {
           breakpoint: 641,
           settings: {
             infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 3,
+            slidesToScroll: 3
           }
         },
         {
           breakpoint: 361,
           settings: {
             infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 2,
+            slidesToScroll: 2
           }
         }
       ]
@@ -54,7 +54,6 @@ class Project extends React.Component {
               </div>
               {/* <!-- Tabs Content --> */}
               <div class="p-tabs-content">
-                {/* <!-- Portfolio Tab / Active Tab --> */}
                 {/* <!-- Gallery Item --> */}
                 <Slider ref={c => (this.slider = c)} {...settings}>
                   <div class="gallery-item">
