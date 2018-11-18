@@ -193,7 +193,8 @@ class Footer extends React.Component {
         <div className="footer-bottom">
           <div className="auto-container">
             <div className="copyright">
-              &copy; 2018 Industry Point Designed by <a href="#">themebunch</a>
+              &copy; 2018 Pratap Engineering Technology. Powered by{" "}
+              <a href="http://www.panthrax.com">PDA</a>
             </div>
           </div>
         </div>
