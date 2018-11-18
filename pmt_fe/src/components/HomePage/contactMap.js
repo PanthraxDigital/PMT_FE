@@ -1,25 +1,19 @@
 import React from "react";
+import bgImage from "../../images/background/10.png";
 
 class ContactMap extends React.Component {
   render() {
     return (
       <div>
         {/* <!-- Contact Map Section --> */}
-        <section class="contact-map-section">
+        <section
+          class="contact-map-section"
+          style={{ backgroundImage: `url(${bgImage})` }}
+        >
           {/* <!-- Map Outer --> */}
           <div class="map-outer">
             {/* <!-- Map Canvas --> */}
-            <div
-              class="map-canvas hideElement"
-              data-zoom="8"
-              data-lat="-37.817085"
-              data-lng="144.955631"
-              data-type="roadmap"
-              data-hue="#ffc400"
-              data-title="Envato"
-              data-icon-path="images/icons/map-marker.png"
-              data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>"
-            />
+            <div />
           </div>
 
           <div class="auto-container clearfix">

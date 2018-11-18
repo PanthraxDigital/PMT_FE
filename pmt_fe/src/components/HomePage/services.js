@@ -16,9 +16,9 @@ class Services extends React.Component {
               <div className="services-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner-box hvr-float">
                   <div className="image">
-                    <img src="images/resource/services-1.jpg" alt="" />
+                    <img src={require("../../images/resource/services-1.jpg")} alt="" />
                     <div className="icon-box">
-                      <span className="icon flaticon-chemistry-className-flask-with-liquid-for-experimentation" />
+                      <span className="icon flaticon-chemistry-class-flask-with-liquid-for-experimentation" />
                     </div>
                     <div className="overlay-box clearfix">
                       <div className="text">
@@ -43,7 +43,7 @@ class Services extends React.Component {
               <div className="services-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner-box hvr-float">
                   <div className="image">
-                    <img src="images/resource/services-2.jpg" alt="" />
+                    <img src={require("../../images/resource/services-1.jpg")} alt="" />
                     <div className="icon-box">
                       <span className="icon flaticon-flash-1" />
                     </div>
@@ -70,7 +70,7 @@ class Services extends React.Component {
               <div className="services-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner-box hvr-float">
                   <div className="image">
-                    <img src="images/resource/services-3.jpg" alt="" />
+                  <img src={require("../../images/resource/services-1.jpg")} alt="" />
                     <div className="icon-box">
                       <span className="icon flaticon-spray-gas-bottle" />
                     </div>
@@ -97,7 +97,7 @@ class Services extends React.Component {
               <div className="services-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner-box hvr-float">
                   <div className="image">
-                    <img src="images/resource/services-4.jpg" alt="" />
+                  <img src={require("../../images/resource/services-1.jpg")} alt="" />
                     <div className="icon-box">
                       <span className="icon flaticon-wrench-tool" />
                     </div>
@@ -124,7 +124,7 @@ class Services extends React.Component {
               <div className="services-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner-box hvr-float">
                   <div className="image">
-                    <img src="images/resource/services-5.jpg" alt="" />
+                  <img src={require("../../images/resource/services-1.jpg")} alt="" />
                     <div className="icon-box">
                       <span className="icon flaticon-branch-with-leaves-black-shape" />
                     </div>
@@ -151,7 +151,7 @@ class Services extends React.Component {
               <div className="services-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner-box hvr-float">
                   <div className="image">
-                    <img src="images/resource/services-6.jpg" alt="" />
+                  <img src={require("../../images/resource/services-1.jpg")} alt="" />
                     <div className="icon-box">
                       <span className="icon flaticon-gears-configuration-tool" />
                     </div>

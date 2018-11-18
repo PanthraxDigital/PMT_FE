@@ -1401,6 +1401,7 @@ img{
 .services-block .inner-box{
 	position:relative;
 	display:block;
+	
 }
 
 .services-block .inner-box .image{
@@ -1855,6 +1856,7 @@ img{
 .gallery-item .inner-box{
 	position:relative;
 	display:block;
+	padding: 10px;
 }
 
 .gallery-item .inner-box .image-box{

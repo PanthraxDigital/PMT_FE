@@ -1,11 +1,12 @@
 import React from "react";
+import bgImage from "../images/background/7.jpg";
 
 class Footer extends React.Component {
   render() {
     return (
       <div
         className="main-footer style-two"
-        style={{ backgroundImage: "url(images/background/7.jpg)" }}
+        style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="auto-container">
           {/* <!-- Widgets Section --> */}
@@ -15,7 +16,7 @@ class Footer extends React.Component {
               <div className="big-column col-md-6 col-sm-12 col-xs-12">
                 <div className="row clearfix">
                   {/* <!-- Footer Column --> */}
-                  <div className="footer-column col-md-6 col-sm-6 col-xs-12">
+                  <div className="footer-column col-md-12 col-sm-6 col-xs-12">
                     <div className="footer-widget logo-widget">
                       <div className="logo">
                         <a href="index.html">
@@ -26,49 +27,9 @@ class Footer extends React.Component {
                         Over 20 years experience and knowledge of international
                         industrial systems, dedicated to provide the best
                         economical solutions to ourvalued customers. We Won Many
-                        Factory Awards and Ceritifide Since 2005
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* <!-- Footer Column --> */}
-                  <div className="footer-column col-md-6 col-sm-6 col-xs-12">
-                    <div className="footer-widget news-widget">
-                      <h2>Latest News</h2>
-                      <div className="widget-content">
-                        <article className="post">
-                          <figure className="post-thumb">
-                            <a href="news-detail.html">
-                              <img
-                                src="images/resource/news-thumb-1.jpg"
-                                alt=""
-                              />
-                            </a>
-                          </figure>
-                          <div className="text">
-                            <a href="news-detail.html">
-                              We have a great work environment in industry.
-                            </a>
-                          </div>
-                          <div className="post-info">November 20, 2017</div>
-                        </article>
-
-                        <article className="post">
-                          <figure className="post-thumb">
-                            <a href="news-detail.html">
-                              <img
-                                src="images/resource/news-thumb-2.jpg"
-                                alt=""
-                              />
-                            </a>
-                          </figure>
-                          <div className="text">
-                            <a href="news-detail.html">
-                              Contemporary Technology for Mystic Vehicle
-                            </a>
-                          </div>
-                          <div className="post-info">December 20, 2017</div>
-                        </article>
+                        Factory Awards and Ceritifide Since 2005. And we are
+                        very consistent with our on time delivery service. This
+                        gives us edge over rest of the folk in the market.
                       </div>
                     </div>
                   </div>
@@ -81,26 +42,26 @@ class Footer extends React.Component {
                   {/* <!-- Footer Column --> */}
                   <div className="footer-column col-md-6 col-sm-6 col-xs-12">
                     <div className="footer-widget links-widget">
-                      <h2>Our Solutions</h2>
+                      <h2>Our Services</h2>
                       <div className="widget-content">
                         <ul className="lisks">
                           <li>
-                            <a href="#">Energy & Power Enginerring</a>
+                            <a href="#">Match Plates</a>
                           </li>
                           <li>
-                            <a href="#">Oil & Gas Enginerring</a>
+                            <a href="#">Manual Fixtures</a>
                           </li>
                           <li>
-                            <a href="#">Civil Enginerring</a>
+                            <a href="#">Hydraulic Fixtures</a>
                           </li>
                           <li>
-                            <a href="#">Agriculture Engineering</a>
+                            <a href="#">Profile CNC Jaws</a>
                           </li>
                           <li>
-                            <a href="#">Chemical Engineering</a>
+                            <a href="#">Sheet Metals Parts</a>
                           </li>
                           <li>
-                            <a href="#">Mechanical Engineering</a>
+                            <a href="#">and many more</a>
                           </li>
                         </ul>
                       </div>
@@ -125,14 +86,14 @@ class Footer extends React.Component {
                                 <a href="#">Get Quote</a>
                               </li>
                               <li>
-                                <a href="#">News</a>
+                                <a href="#">Services</a>
                               </li>
                               <li>
-                                <a href="#">Faq</a>
+                                <a href="#">Team</a>
                               </li>
                             </ul>
                           </div>
-                          <div className="col-md-6 col-sm-6 col-xs-12">
+                          {/* <div className="col-md-6 col-sm-6 col-xs-12">
                             <ul className="lisks style-two">
                               <li>
                                 <a href="#">Services</a>
@@ -150,7 +111,7 @@ class Footer extends React.Component {
                                 <a href="#">Contact</a>
                               </li>
                             </ul>
-                          </div>
+                          </div> */}
                         </div>
                         <ul className="social-icon-two">
                           <li className="follow">Follow us :</li>
@@ -167,16 +128,6 @@ class Footer extends React.Component {
                           <li>
                             <a href="#">
                               <span className="fa fa-google-plus" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <span className="fa fa-pinterest-p" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <span className="fa fa-dribbble" />
                             </a>
                           </li>
                         </ul>

@@ -1,4 +1,5 @@
 import React from "react";
+import bgImage from "../../images/background/3.jpg";
 
 class CallToAction extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class CallToAction extends React.Component {
         {/* <!-- Call To Action --> */}
         <section
           class="call-to-action"
-          style={{ backgroundImage: "url(images/background/3.jpg)" }}
+          style={{ backgroundImage: `url(${bgImage})` }}
         >
           <div class="auto-container">
             <div class="row clearfix">

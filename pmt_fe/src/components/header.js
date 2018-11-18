@@ -5,43 +5,43 @@ class Header extends React.Component {
     return (
       <div>
         {/* <!-- Main Header --> */}
-        <header class="main-header">
+        <header className="main-header">
           {/* <!-- Header Top --> */}
-          <div class="header-top">
-            <div class="auto-container">
-              <div class="inner-container clearfix">
-                <div class="top-left">
-                  <ul class="clearfix">
+          <div className="header-top">
+            <div className="auto-container">
+              <div className="inner-container clearfix">
+                <div className="top-left">
+                  <ul className="clearfix">
                     <li>Turning big ideas into great products</li>
                     <li>
                       <a href="#">
-                        <span class="icon fa fa-globe" />
+                        <span className="icon fa fa-globe" />
                         Jaipur, Rajasthan, IN
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span class="icon fa fa-volume-control-phone" /> +91
+                        <span className="icon fa fa-volume-control-phone" /> +91
                         97852 02444 | +91 77920 51120
                       </a>
                     </li>
                   </ul>
                 </div>
-                <div class="top-right clearfix">
-                  <ul class="social-icon-one">
+                <div className="top-right clearfix">
+                  <ul className="social-icon-one">
                     <li>
                       <a href="#">
-                        <span class="fa fa-facebook" />
+                        <span className="fa fa-facebook" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span class="fa fa-twitter" />
+                        <span className="fa fa-twitter" />
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <span class="fa fa-google-plus" />
+                        <span className="fa fa-google-plus" />
                       </a>
                     </li>
                   </ul>
@@ -51,11 +51,11 @@ class Header extends React.Component {
           </div>
 
           {/* <!-- Header-Upper --> */}
-          <div class="header-upper">
-            <div class="auto-container">
-              <div class="clearfix">
-                <div class="pull-left logo-outer">
-                  <div class="logo">
+          <div className="header-upper">
+            <div className="auto-container">
+              <div className="clearfix">
+                <div className="pull-left logo-outer">
+                  <div className="logo">
                     <a href="index.html">
                       <img
                         src={require("../images/logo2.png")}
@@ -67,11 +67,11 @@ class Header extends React.Component {
                   </div>
                 </div>
 
-                <div class="pull-right upper-right clearfix">
+                <div className="pull-right upper-right clearfix">
                   {/* <!-- Info Box --> */}
-                  <div class="upper-column info-box">
-                    <div class="icon-box">
-                      <span class="flaticon-stamp-1" />
+                  <div className="upper-column info-box">
+                    <div className="icon-box">
+                      <span className="flaticon-stamp-1" />
                     </div>
                     <ul>
                       <li>
@@ -82,9 +82,9 @@ class Header extends React.Component {
                   </div>
 
                   {/* <!-- Info Box --> */}
-                  <div class="upper-column info-box">
-                    <div class="icon-box">
-                      <span class="flaticon-trophy-2" />
+                  <div className="upper-column info-box">
+                    <div className="icon-box">
+                      <span className="flaticon-trophy-2" />
                     </div>
                     <ul>
                       <li>
@@ -95,8 +95,8 @@ class Header extends React.Component {
                   </div>
 
                   {/* <!-- Info Box --> */}
-                  <div class="upper-column info-box">
-                    <a href="contact.html" class="order-btn theme-btn">
+                  <div className="upper-column info-box">
+                    <a href="contact.html" className="order-btn theme-btn">
                       Get a Quote
                     </a>
                   </div>
@@ -107,36 +107,36 @@ class Header extends React.Component {
           {/* <!-- End Header Upper --> */}
 
           {/* <!-- Header Lower --> */}
-          <div class="header-lower">
-            <div class="auto-container">
-              <div class="nav-outer clearfix">
+          <div className="header-lower">
+            <div className="auto-container">
+              <div className="nav-outer clearfix">
                 {/* <!-- Main Menu --> */}
-                <nav class="main-menu">
-                  <div class="navbar-header">
+                <nav className="main-menu">
+                  <div className="navbar-header">
                     {/* <!-- Toggle Button --> */}
                     <button
                       type="button"
-                      class="navbar-toggle"
+                      className="navbar-toggle"
                       data-toggle="collapse"
                       data-target=".navbar-collapse"
                     >
-                      <span class="icon-bar" />
-                      <span class="icon-bar" />
-                      <span class="icon-bar" />
+                      <span className="icon-bar" />
+                      <span className="icon-bar" />
+                      <span className="icon-bar" />
                     </button>
                   </div>
 
-                  <div class="navbar-collapse collapse clearfix">
-                    <ul class="navigation clearfix">
-                      <li class="current dropdown">
+                  <div className="navbar-collapse collapse clearfix">
+                    <ul className="navigation clearfix">
+                      <li className="current dropdown">
                         <a href="index.html">Home</a>
                       </li>
                       <li>
                         <a href="about.html">About Us</a>
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="solutions.html">Solutions</a>
-                        <div class="hideElement">
+                        <div className="hideElement">
                           <ul>
                             <li>
                               <a href="solutions.html">Solutions</a>
@@ -170,9 +170,9 @@ class Header extends React.Component {
                           </ul>
                         </div>
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="projects.html">Projects</a>
-                        <div class="hideElement">
+                        <div className="hideElement">
                           <ul>
                             <li>
                               <a href="projects.html">Our projects</a>
@@ -186,10 +186,10 @@ class Header extends React.Component {
                         </div>
                       </li>
 
-                      <div class="hideElement">
-                        <li class="dropdown">
+                      <div className="hideElement">
+                        <li className="dropdown">
                           <a href="#">News</a>
-                          <ul class="hideElement">
+                          <ul className="hideElement">
                             <li>
                               <a href="news.html">News Grid View</a>
                             </li>
@@ -197,7 +197,7 @@ class Header extends React.Component {
                               <a href="news-list.html">News List View</a>
                             </li>
                             <li>
-                              <a href="news-classic.html">News Classic View</a>
+                              <a href="news-classNameic.html">News classNameic View</a>
                             </li>
                             <li>
                               <a href="news-detail.html">News Details</a>
@@ -205,8 +205,8 @@ class Header extends React.Component {
                           </ul>
                         </li>
                       </div>
-                      <div class="hideElement">
-                        <li class="dropdown" class="hideElement">
+                      <div className="hideElement">
+                        <li className="dropdown" className="hideElement">
                           <a href="#">Shop</a>
                           <ul>
                             <li>
@@ -234,27 +234,27 @@ class Header extends React.Component {
                   </div>
                 </nav>
                 {/* <!-- Main Menu End --> */}
-                <div class="outer-box hideElement">
+                <div className="outer-box hideElement">
                   {/* <!-- Search Box --> */}
-                  <div class="dropdown dropdown-outer">
+                  <div className="dropdown dropdown-outer">
                     <button
-                      class="search-box-btn dropdown-toggle"
+                      className="search-box-btn dropdown-toggle"
                       type="button"
                       id="dropdownMenu3"
                       data-toggle="dropdown"
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      <span class="fa fa-search" />
+                      <span className="fa fa-search" />
                     </button>
                     <ul
-                      class="dropdown-menu pull-right search-panel"
+                      className="dropdown-menu pull-right search-panel"
                       aria-labelledby="dropdownMenu3"
                     >
-                      <li class="panel-outer">
-                        <div class="form-container">
+                      <li className="panel-outer">
+                        <div className="form-container">
                           <form method="post" action="blog.html">
-                            <div class="form-group">
+                            <div className="form-group">
                               <input
                                 type="search"
                                 name="field-name"
@@ -262,8 +262,8 @@ class Header extends React.Component {
                                 placeholder="Search Here"
                                 required=""
                               />
-                              <button type="submit" class="search-btn">
-                                <span class="fa fa-search" />
+                              <button type="submit" className="search-btn">
+                                <span className="fa fa-search" />
                               </button>
                             </div>
                           </form>
@@ -278,45 +278,45 @@ class Header extends React.Component {
           {/* <!-- End Header Lower --> */}
 
           {/* <!-- Sticky Header --> */}
-          <div class="sticky-header">
-            <div class="auto-container clearfix">
+          <div className="sticky-header">
+            <div className="auto-container clearfix">
               {/* <!-- Logo --> */}
-              <div class="logo pull-left">
-                <a href="index.html" class="img-responsive">
+              <div className="logo pull-left">
+                <a href="index.html" className="img-responsive">
                   <img src="images/logo-small.png" alt="" title="" />
                 </a>
               </div>
 
               {/* <!-- Right Col --> */}
-              <div class="right-col pull-right">
+              <div className="right-col pull-right">
                 {/* <!-- Main Menu --> */}
-                <nav class="main-menu">
-                  <div class="navbar-header">
+                <nav className="main-menu">
+                  <div className="navbar-header">
                     {/* <!-- Toggle Button --> */}
                     <button
                       type="button"
-                      class="navbar-toggle"
+                      className="navbar-toggle"
                       data-toggle="collapse"
                       data-target=".navbar-collapse"
                     >
-                      <span class="icon-bar" />
-                      <span class="icon-bar" />
-                      <span class="icon-bar" />
+                      <span className="icon-bar" />
+                      <span className="icon-bar" />
+                      <span className="icon-bar" />
                     </button>
                   </div>
 
-                  <div class="navbar-collapse collapse clearfix">
-                    <ul class="navigation clearfix">
-                      <li class="current dropdown">
+                  <div className="navbar-collapse collapse clearfix">
+                    <ul className="navigation clearfix">
+                      <li className="current dropdown">
                         <a href="#">Home</a>
                     
                       </li>
                       <li>
                         <a href="about.html">About Us</a>
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#">Solutions</a>
-                        <div class="hideElement">
+                        <div className="hideElement">
                           <ul>
                             <li>
                               <a href="solutions.html">Solutions</a>
@@ -350,9 +350,9 @@ class Header extends React.Component {
                           </ul>
                         </div>
                       </li>
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#">Projects</a>
-                        <div class="hideElement">
+                        <div className="hideElement">
                           <ul>
                             <li>
                               <a href="projects.html">Our projects</a>
@@ -366,9 +366,9 @@ class Header extends React.Component {
                         </div>
                       </li>
 
-                      <li class="dropdown">
+                      <li className="dropdown">
                         <a href="#">News</a>
-                        <div class="hideElement">
+                        <div className="hideElement">
                           <ul>
                             <li>
                               <a href="news.html">News Grid View</a>
@@ -377,7 +377,7 @@ class Header extends React.Component {
                               <a href="news-list.html">News List View</a>
                             </li>
                             <li>
-                              <a href="news-classic.html">News Classic View</a>
+                              <a href="news-classNameic.html">News classNameic View</a>
                             </li>
                             <li>
                               <a href="news-detail.html">News Details</a>
@@ -385,8 +385,8 @@ class Header extends React.Component {
                           </ul>
                         </div>
                       </li>
-                      <div class="hideElement">
-                        <li class="dropdown">
+                      <div className="hideElement">
+                        <li className="dropdown">
                           <a href="#">Shop</a>
                           <ul>
                             <li>

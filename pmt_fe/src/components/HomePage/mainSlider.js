@@ -5,14 +5,14 @@ class MainSlider extends React.Component {
     return (
       <div>
         {/* <!-- Main Slider --> */}
-        <section class="main-slider">
+        <section className="main-slider">
           <div
-            class="rev_slider_wrapper fullwidthbanner-container"
+            className="rev_slider_wrapper fullwidthbanner-container"
             id="rev_slider_one_wrapper"
             data-source="gallery"
           >
             <div
-              class="rev_slider fullwidthabanner"
+              className="rev_slider fullwidthabanner"
               id="rev_slider_one"
               data-version="5.4.1"
             >
@@ -47,7 +47,7 @@ class MainSlider extends React.Component {
                 >
                   <img
                     alt=""
-                    class="rev-slidebg"
+                    className="rev-slidebg"
                     data-bgfit="cover"
                     data-bgparallax="10"
                     data-bgposition="center center"
@@ -57,7 +57,7 @@ class MainSlider extends React.Component {
                   />
 
                   <div
-                    class="tp-caption"
+                    className="tp-caption"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
@@ -81,12 +81,12 @@ class MainSlider extends React.Component {
                   >
                     <h2>
                       Get a solution for all
-                      <span class="theme_color"> industries</span>
+                      <span className="theme_color"> industries</span>
                     </h2>
                   </div>
 
                   <div
-                    class="tp-caption tp-resizeme"
+                    className="tp-caption tp-resizeme"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
@@ -103,7 +103,7 @@ class MainSlider extends React.Component {
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                   >
-                    <div class="text">
+                    <div className="text">
                       We are team of the professionals who will build everything
                       <br />
                       you can draw on a paper
@@ -111,7 +111,7 @@ class MainSlider extends React.Component {
                   </div>
 
                   <div
-                    class="tp-caption tp-resizeme"
+                    className="tp-caption tp-resizeme"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
@@ -133,10 +133,13 @@ class MainSlider extends React.Component {
                       textTransform: "left"
                     }}
                   >
-                    <a href="about.html" class="theme-btn btn-style-one">
+                    <a href="about.html" className="theme-btn btn-style-one">
                       Learn More
                     </a>
-                    <a href="solutions.html" class="theme-btn btn-style-two">
+                    <a
+                      href="solutions.html"
+                      className="theme-btn btn-style-two"
+                    >
                       Our Solutions
                     </a>
                   </div>
@@ -172,17 +175,17 @@ class MainSlider extends React.Component {
                 >
                   <img
                     alt=""
-                    class="rev-slidebg"
+                    className="rev-slidebg"
                     data-bgfit="cover"
                     data-bgparallax="10"
                     data-bgposition="center center"
                     data-bgrepeat="no-repeat"
                     data-no-retina=""
-                    src="images/main-slider/image-3-1.jpg"
+                    src={require("../../images/main-slider/image-3-1.jpg")}
                   />
 
                   <div
-                    class="tp-caption"
+                    className="tp-caption"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
@@ -206,12 +209,12 @@ class MainSlider extends React.Component {
                   >
                     <h2>
                       Most targeted industry
-                      <span class="theme_color"> Clusters</span>
+                      <span className="theme_color"> Clusters</span>
                     </h2>
                   </div>
 
                   <div
-                    class="tp-caption tp-resizeme"
+                    className="tp-caption tp-resizeme"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
@@ -228,14 +231,14 @@ class MainSlider extends React.Component {
                     data-textalign="['top','top','top','top']"
                     data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                   >
-                    <div class="text">
+                    <div className="text">
                       From small to large elements in our production we use only
                       fines materials
                     </div>
                   </div>
 
                   <div
-                    class="tp-caption tp-resizeme"
+                    className="tp-caption tp-resizeme"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
@@ -257,10 +260,13 @@ class MainSlider extends React.Component {
                       textTransform: "left"
                     }}
                   >
-                    <a href="about.html" class="theme-btn btn-style-one">
+                    <a href="about.html" className="theme-btn btn-style-one">
                       Learn More
                     </a>
-                    <a href="solutions.html" class="theme-btn btn-style-two">
+                    <a
+                      href="solutions.html"
+                      className="theme-btn btn-style-two"
+                    >
                       Our Solutions
                     </a>
                   </div>
