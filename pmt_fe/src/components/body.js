@@ -1,5 +1,6 @@
 import React from "react";
 import MainSlider from "./HomePage/mainSlider";
+import MainSlider2 from "./HomePage/mainSlider2";
 import CallToAction from "./HomePage/callToAction";
 import Services from "./HomePage/services";
 import WorkProcess from "./HomePage/workProcess";
@@ -13,13 +14,13 @@ class Body extends React.Component {
     return (
       <React.Fragment>
         <MainSlider />
-        <CallToAction />
+        {/* <CallToAction />
         <Services />
         <About />
         <WorkProcess />
         <Project />
         <ContactInfo />
-        <ContactMap />
+        <ContactMap /> */}
       </React.Fragment>
     );
   }

@@ -17,7 +17,7 @@ class MainSlider extends React.Component {
               data-version="5.4.1"
             >
               <ul>
-                <li
+                {/* <li
                   data-description="Slide Description"
                   data-easein="default"
                   data-easeout="default"
@@ -143,7 +143,7 @@ class MainSlider extends React.Component {
                       Our Solutions
                     </a>
                   </div>
-                </li>
+                </li> */}
 
                 <li
                   data-description="Slide Description"
@@ -271,6 +271,7 @@ class MainSlider extends React.Component {
                     </a>
                   </div>
                 </li>
+           
               </ul>
             </div>
           </div>
