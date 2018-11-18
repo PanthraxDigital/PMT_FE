@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lathe Machine",
+    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "description": "this is the lathe machine"
+  },
+  {
+    "name": "Band Saw",
+    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "description": "this is the Band saw machine"
+  },
+  {
+    "name": "Universal Milling",
+    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "description": "this is the Universal Milling machine"
+  },
+  {
+    "name": "Turret Milling",
+    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "description": "this is the Turret milling machine"
+  },
+  {
+    "name": "Surface Grinder",
+    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "description": "this is the Surface Grinder machine"
+  },
+  {
+    "name": "Cylindrical Grinder",
+    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "description": "this is the Cylindraical Grinder machine"
+  }
+]

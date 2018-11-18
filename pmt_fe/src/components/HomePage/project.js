@@ -86,7 +86,59 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/1.jpg")}
+                          src={require("../../images/gallery/2.jpg")}
+                          alt=""
+                        />
+                        {/* <!-- Overlay Box --> */}
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a href="projects-detail.html" class="image-link">
+                              <span class="icon fa fa-link" />
+                            </a>
+                            <div class="content">
+                              <h3>
+                                <a href="projects-detail.html">
+                                  Pre Construction
+                                </a>
+                              </h3>
+                              <div class="category">Agriculture, Chemical</div>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="gallery-item">
+                    <div class="inner-box">
+                      <figure class="image-box">
+                        <img
+                          src={require("../../images/gallery/3.jpg")}
+                          alt=""
+                        />
+                        {/* <!-- Overlay Box --> */}
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a href="projects-detail.html" class="image-link">
+                              <span class="icon fa fa-link" />
+                            </a>
+                            <div class="content">
+                              <h3>
+                                <a href="projects-detail.html">
+                                  Pre Construction
+                                </a>
+                              </h3>
+                              <div class="category">Agriculture, Chemical</div>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="gallery-item">
+                    <div class="inner-box">
+                      <figure class="image-box">
+                        <img
+                          src={require("../../images/gallery/4.jpg")}
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -138,7 +190,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/1.jpg")}
+                          src={require("../../images/gallery/2.jpg")}
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -164,7 +216,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/1.jpg")}
+                          src={require("../../images/gallery/3.jpg")}
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -190,111 +242,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/1.jpg")}
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src={require("../../images/gallery/1.jpg")}
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src={require("../../images/gallery/1.jpg")}
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src={require("../../images/gallery/1.jpg")}
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src={require("../../images/gallery/1.jpg")}
+                          src={require("../../images/gallery/4.jpg")}
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
