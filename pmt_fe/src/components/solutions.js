@@ -1,6 +1,6 @@
 import React from "react";
 import bgImage2 from "../images/main-slider/image-6-1.jpg";
-import ProjectData from "../content/project";
+import ServiceData from "../content/services";
 
 class Solutions extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Solutions extends React.Component {
           <div class="auto-container">
             <h1>Sevices</h1>
             <div class="text">
-              We embark the services that could lead to best project development
+              Embark the services that could lead to best project development
             </div>
           </div>
           {/* <!--Page Info--> */}
@@ -68,26 +68,30 @@ class Solutions extends React.Component {
               </div>
 
               <div class="items-container row clearfix">
-                {ProjectData.map(data => (
-                  <div class="gallery-item masonry-item all agriculture col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="inner-box">
-                      <figure class="image-box">
+                {ServiceData.map(data => (
+                  <div class="services-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box hvr-float">
+                      <div class="image">
                         <img src={data.imageUrl} alt="" />
-                        {/* <!--Overlay Box--> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">{data.name}</a>
-                              </h3>
-                              <div class="category">{data.subTitle}</div>
-                            </div>
-                          </div>
+                        <div class="icon-box">
+                          <span class="icon flaticon-home" />
                         </div>
-                      </figure>
+                        <div class="overlay-box clearfix">
+                          <div class="text">
+                            {data.description}
+                          </div>
+                          <a href="solutions-detail.html" class="read-more">
+                            Read More
+                          </a>
+                        </div>
+                      </div>
+                      <div class="lower-box">
+                        <h3>
+                          <a href="solutions-detail.html">
+                            {data.name}
+                          </a>
+                        </h3>
+                      </div>
                     </div>
                   </div>
                 ))}

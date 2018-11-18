@@ -1,32 +1,42 @@
 [
   {
-    "name": "Lathe Machine",
-    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "name": "MATCH PLATES",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-3.jpg",
     "description": "this is the lathe machine"
   },
   {
-    "name": "Band Saw",
-    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "name": "MANUL FIXTURES",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-4.jpg",
     "description": "this is the Band saw machine"
   },
   {
-    "name": "Universal Milling",
-    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "name": "HYDRALULIC FIXTURES",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-5.jpg",
     "description": "this is the Universal Milling machine"
   },
   {
-    "name": "Turret Milling",
-    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "name": "PROFILE CNC JAWS",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-6.jpg",
     "description": "this is the Turret milling machine"
   },
   {
-    "name": "Surface Grinder",
-    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "name": "STEEL METAL PARTS",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-8.jpg",
     "description": "this is the Surface Grinder machine"
   },
   {
-    "name": "Cylindrical Grinder",
-    "imageUrl": "https://farm5.staticflickr.com/4858/45887113772_b7c91a619b_n.jpg",
+    "name": "PRESS TOOLS",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-9.jpg",
+    "description": "this is the Cylindraical Grinder machine"
+  },
+  {
+    "name": "TIMMING DIES",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-10.jpg",
+    "description": "this is the Cylindraical Grinder machine"
+  },
+  {
+    "name": "SPM MACHINES",
+    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-11.jpg",
     "description": "this is the Cylindraical Grinder machine"
   }
 ]
