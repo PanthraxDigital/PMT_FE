@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from "../../images/main-slider/image-3-1.jpg";
 
 class MainSlider extends React.Component {
   render() {
@@ -181,7 +182,7 @@ class MainSlider extends React.Component {
                     data-bgposition="center center"
                     data-bgrepeat="no-repeat"
                     data-no-retina=""
-                    src={require("../../images/main-slider/image-3-1.jpg")}
+                    src={require(image1)}
                   />
 
                   <div
@@ -263,15 +264,11 @@ class MainSlider extends React.Component {
                     <a href="#" className="theme-btn btn-style-one">
                       Learn More
                     </a>
-                    <a
-                      href="#"
-                      className="theme-btn btn-style-two"
-                    >
+                    <a href="#" className="theme-btn btn-style-two">
                       Our Solutions
                     </a>
                   </div>
                 </li>
-           
               </ul>
             </div>
           </div>
