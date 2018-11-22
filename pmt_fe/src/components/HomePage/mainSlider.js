@@ -182,7 +182,7 @@ class MainSlider extends React.Component {
                     data-bgposition="center center"
                     data-bgrepeat="no-repeat"
                     data-no-retina=""
-                    src={require(image1)}
+                    src={(image1)}
                   />
 
                   <div
