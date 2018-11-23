@@ -8,7 +8,11 @@ class ContactUs extends React.Component {
         {/* <!--Page Title--> */}
         <section
           className="page-title"
-          style={{ backgroundImage: `url(${bgImage2})` }}
+          style={{
+            backgroundImage: 
+            
+            `url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")`
+          }}
         >
           <div className="auto-container">
             <h1>Contact Us</h1>

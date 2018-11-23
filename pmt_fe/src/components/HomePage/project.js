@@ -60,7 +60,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/1.jpg")}
+                          src="https://farm5.staticflickr.com/4906/45105031585_885173b3be_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -86,7 +86,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/2.jpg")}
+                          src="https://farm5.staticflickr.com/4817/31077533767_d73acea4bc_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -112,7 +112,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/3.jpg")}
+                          src="https://farm5.staticflickr.com/4895/45105031725_72cda6384c_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -138,7 +138,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/4.jpg")}
+                          src="https://farm5.staticflickr.com/4853/31077534147_ecd54c70c4_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -164,7 +164,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/1.jpg")}
+                          src="https://farm5.staticflickr.com/4853/31077534147_ecd54c70c4_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -190,7 +190,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/2.jpg")}
+                          src="https://farm5.staticflickr.com/4906/45105031585_885173b3be_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -216,7 +216,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/3.jpg")}
+                          src="https://farm5.staticflickr.com/4817/31077533767_d73acea4bc_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -242,7 +242,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src={require("../../images/gallery/4.jpg")}
+                          src="https://farm5.staticflickr.com/4895/45105031725_72cda6384c_m.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}

@@ -13,7 +13,9 @@ class AboutUs extends React.Component {
         {/* <!--Page Title--> */}
         <section
           className="page-title"
-          style={{ backgroundImage: `url(${bgImage2})` }}
+          style={{
+            backgroundImage: `url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")`
+          }}
         >
           <div className="auto-container">
             <h1>About Us</h1>
@@ -93,7 +95,10 @@ class AboutUs extends React.Component {
               </div>
               <div className="image-column col-md-6 col-sm-12 col-xs-12">
                 <div className="image">
-                  <img src={require("../images/resource/about-3.jpg")} alt="" />
+                  <img
+                    src="https://farm5.staticflickr.com/4870/45292309084_f2a572be31.jpg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -107,7 +112,7 @@ class AboutUs extends React.Component {
                     <div className="image-column col-md-6 col-sm-6 col-xs-12">
                       <div className="image">
                         <img
-                          src={require("../images/resource/about-1.jpg")}
+                          src="https://farm5.staticflickr.com/4865/45292309144_bd748628d0_m.jpg"
                           alt=""
                         />
                       </div>
@@ -135,7 +140,7 @@ class AboutUs extends React.Component {
                     <div className="image-column col-md-6 col-sm-6 col-xs-12">
                       <div className="image">
                         <img
-                          src={require("../images/resource/about-2.jpg")}
+                          src="https://farm5.staticflickr.com/4882/45292308994_fc6cdc02b7_m.jpg"
                           alt=""
                         />
                       </div>
@@ -165,8 +170,9 @@ class AboutUs extends React.Component {
             {/* <!--Image Column--> */}
             <div
               className="image-column"
-              // style={{ backgroundImage: `url(${bgImage1}` }}
-              style={{ backgroundImage: `url(${bgImage1})` }}
+              style={{
+                backgroundImage: `url("https://farm5.staticflickr.com/4844/44201093460_6267d18fd3.jpg")`
+              }}
             >
               <figure className="image-box">
                 {/* <img

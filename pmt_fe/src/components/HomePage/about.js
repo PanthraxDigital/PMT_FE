@@ -23,7 +23,7 @@ class About extends React.Component {
                 </div>
                 <div class="image">
                   <img
-                    src={require("../../images/resource/about.jpg")}
+                    src="https://farm5.staticflickr.com/4870/45292309084_f2a572be31.jpg"
                     alt=""
                   />
                 </div>
@@ -37,7 +37,7 @@ class About extends React.Component {
                       <div class="image">
                         <a href="about.html">
                           <img
-                            src={require("../../images/resource/about-1.jpg")}
+                            src="https://farm5.staticflickr.com/4865/45292309144_bd748628d0_m.jpg"
                             alt=""
                           />
                         </a>
@@ -62,7 +62,7 @@ class About extends React.Component {
                       <div class="image">
                         <a href="about.html">
                           <img
-                            src={require("../../images/resource/about-2.jpg")}
+                            src="https://farm5.staticflickr.com/4882/45292308994_fc6cdc02b7_m.jpg"
                             alt=""
                           />
                         </a>

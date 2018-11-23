@@ -1,5 +1,4 @@
 import React from "react";
-import bgImage from "../../images/background/10.png";
 
 class ContactMap extends React.Component {
   render() {
@@ -8,7 +7,9 @@ class ContactMap extends React.Component {
         {/* <!-- Contact Map Section --> */}
         <section
           class="contact-map-section"
-          style={{ backgroundImage: `url(${bgImage})` }}
+          style={{
+            backgroundImage: `url("https://farm5.staticflickr.com/4822/46016313831_3e4180af74_b.jpg")`
+          }}
         >
           {/* <!-- Map Outer --> */}
           <div class="map-outer">

@@ -1,5 +1,4 @@
 import React from "react";
-import image1 from "../../images/main-slider/image-3-1.jpg";
 
 class MainSlider extends React.Component {
   render() {
@@ -182,7 +181,7 @@ class MainSlider extends React.Component {
                     data-bgposition="center center"
                     data-bgrepeat="no-repeat"
                     data-no-retina=""
-                    src={(image1)}
+                    src="https://farm5.staticflickr.com/4869/45104865175_eab206f8f4_h.jpg"
                   />
 
                   <div

@@ -6,7 +6,9 @@ class Footer extends React.Component {
     return (
       <div
         className="main-footer style-two"
-        style={{ backgroundImage: `url(${bgImage})` }}
+        style={{
+          backgroundImage: `url("https://farm5.staticflickr.com/4871/45292191704_e139bdf98c_b.jpg")`
+        }}
       >
         <div className="auto-container">
           {/* <!-- Widgets Section --> */}
@@ -20,7 +22,7 @@ class Footer extends React.Component {
                     <div className="footer-widget logo-widget">
                       <div className="logo">
                         <a href="index.html">
-                          <img src="images/logo-2.png" alt="" />
+                          <img src="" alt="" />
                         </a>
                       </div>
                       <div className="text">

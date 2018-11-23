@@ -9,7 +9,12 @@ class Projects extends React.Component {
         {/* <!--Page Title--> */}
         <section
           class="page-title"
-          style={{ backgroundImage: `url(${bgImage2})` }}
+          style={{
+            backgroundImage: 
+            `
+            url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")
+            `
+          }}
         >
           <div class="auto-container">
             <h1>Projects</h1>

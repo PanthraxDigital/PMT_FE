@@ -9,7 +9,11 @@ class Services extends React.Component {
         {/* <!--Page Title--> */}
         <section
           class="page-title"
-          style={{ backgroundImage: `url(${bgImage2})` }}
+          style={{
+            backgroundImage: `
+            url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")
+            `
+          }}
         >
           <div class="auto-container">
             <h1>Sevices</h1>
@@ -77,9 +81,7 @@ class Services extends React.Component {
                           <span class="icon flaticon-home" />
                         </div>
                         <div class="overlay-box clearfix">
-                          <div class="text">
-                            {data.description}
-                          </div>
+                          <div class="text">{data.description}</div>
                           <a href="solutions-detail.html" class="read-more">
                             Read More
                           </a>
@@ -87,9 +89,7 @@ class Services extends React.Component {
                       </div>
                       <div class="lower-box">
                         <h3>
-                          <a href="solutions-detail.html">
-                            {data.name}
-                          </a>
+                          <a href="solutions-detail.html">{data.name}</a>
                         </h3>
                       </div>
                     </div>

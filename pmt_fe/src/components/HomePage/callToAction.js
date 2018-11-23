@@ -8,7 +8,9 @@ class CallToAction extends React.Component {
         {/* <!-- Call To Action --> */}
         <section
           class="call-to-action"
-          style={{ backgroundImage: `url(${bgImage})` }}
+          style={{
+            backgroundImage: `url("https://farm5.staticflickr.com/4821/46016309631_c3528fe2d5_z.jpg")`
+          }}
         >
           <div class="auto-container">
             <div class="row clearfix">

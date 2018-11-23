@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 class Header extends React.Component {
   render() {
     return (
@@ -60,7 +59,7 @@ class Header extends React.Component {
                   <div className="logo">
                     <Link to="/">
                       <img
-                        src={require("../images/logo2.png")}
+                        src="https://farm5.staticflickr.com/4884/45967049312_b8c8cfd72d_n.jpg"
                         alt=""
                         title=""
                         style={{ width: "65%" }}
@@ -149,7 +148,7 @@ class Header extends React.Component {
                   </div>
                 </nav>
                 {/* <!-- Main Menu End --> */}
-                  {/* <!-- Search Box --> */}
+                {/* <!-- Search Box --> */}
                 {/* <div className="outer-box hideElement">
                   <div className="dropdown dropdown-outer">
                     <button
@@ -197,8 +196,12 @@ class Header extends React.Component {
             <div className="auto-container clearfix">
               {/* <!-- Logo --> */}
               <div className="logo pull-left">
-                <Link to="/" className="img-responsive">
-                  <img src="images/logo-small.png" alt="" title="" />
+                <Link to="/" className="img-responsive" style={{width:'60%'}}>
+                  <img
+                    src="https://farm5.staticflickr.com/4905/44201311740_6759abce3d_s.jpg"
+                    alt=""
+                    title=""
+                  />
                 </Link>
               </div>
 
