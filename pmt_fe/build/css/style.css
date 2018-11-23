@@ -386,6 +386,7 @@ img{
 
 .sticky-header .logo{
 	padding:5px 0px 2px;	
+	margin-top: 0.3em;
 }
 
 .fixed-header .sticky-header{
