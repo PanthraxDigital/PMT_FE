@@ -41,7 +41,9 @@ class Project extends React.Component {
         {/* <!-- Project Section --> */}
         <section
           class="project-section"
-          style={{ backgroundImage: `url(${bgImage})` }}
+          style={{
+            backgroundImage: `url("https://farm5.staticflickr.com/4834/44200845270_60d61ec21f_c.jpg")`
+          }}
         >
           <div class="auto-container">
             {/* <!-- Porfolio Tabs --> */}
