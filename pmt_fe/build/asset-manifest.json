@@ -10,7 +10,7 @@
   "static/media/image-6-1.jpg": "/static/media/image-6-1.e1c15fb9.jpg",
   "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
   "static/media/3.jpg": "/static/media/3.7b6dc825.jpg",
-  "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+  "static/media/slick-theme.css": "/static/media/slick.d41f55a7.ttf",
   "static/media/8.jpg": "/static/media/8.c0358be6.jpg",
   "static/media/image-1-1.jpg": "/static/media/image-1-1.58d55d45.jpg",
   "static/media/7.jpg": "/static/media/7.a6dffcc5.jpg",
@@ -18,6 +18,6 @@
   "static/css/main.8b37d426.chunk.css.map": "/static/css/main.8b37d426.chunk.css.map",
   "static/css/1.cfb05ca1.chunk.css.map": "/static/css/1.cfb05ca1.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.a5df7dd07f551671aeaf204e50b563fe.js": "/precache-manifest.a5df7dd07f551671aeaf204e50b563fe.js",
+  "precache-manifest.f8fab49e65ea73ba210cc45066b7db96.js": "/precache-manifest.f8fab49e65ea73ba210cc45066b7db96.js",
   "service-worker.js": "/service-worker.js"
 }
