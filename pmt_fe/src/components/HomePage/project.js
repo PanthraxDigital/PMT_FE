@@ -22,16 +22,18 @@ class Project extends React.Component {
           breakpoint: 641,
           settings: {
             infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
           }
         },
         {
           breakpoint: 361,
           settings: {
             infinite: true,
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
           }
         }
       ]

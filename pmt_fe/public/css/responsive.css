@@ -862,7 +862,9 @@
 }
 
 @media only screen and (max-width: 479px) {
-	
+	.info-block .inner .text span{
+		font-size: 12px;
+	}
 	.header-upper {
 		display: none;
 	}
