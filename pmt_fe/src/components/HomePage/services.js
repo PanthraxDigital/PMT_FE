@@ -13,8 +13,11 @@ class Services extends React.Component {
               <h2>Conventional Machines</h2>
             </div>
             <div className="row clearfix">
-              {serviceData.map(data => (
-                <div className="services-block col-md-4 col-sm-6 col-xs-12">
+              {serviceData.map((data, index) => (
+                <div
+                  className="services-block col-md-4 col-sm-6 col-xs-12"
+                  key={{ index }}
+                >
                   <div className="inner-box">
                     <div className="image">
                       <img src={`${data.imageUrl}`} alt="" />

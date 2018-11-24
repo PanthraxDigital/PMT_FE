@@ -7,20 +7,20 @@ class CallToAction extends React.Component {
       <div>
         {/* <!-- Call To Action --> */}
         <section
-          class="call-to-action"
+          className="call-to-action"
           style={{
             backgroundImage: `url("https://farm5.staticflickr.com/4821/46016309631_c3528fe2d5_z.jpg")`
           }}
         >
-          <div class="auto-container">
-            <div class="row clearfix">
+          <div className="auto-container">
+            <div className="row clearfix">
               {/* <!-- Column --> */}
-              <div class="column col-md-8 col-sm-12 col-xs-12">
+              <div className="column col-md-8 col-sm-12 col-xs-12">
                 <h2>LOOKING AN ADEQUATE SOLUTION FOR YOUR COMPANY?</h2>
               </div>
               {/* <!-- Btn Column --> */}
-              <div class="btn-column col-md-4 col-sm-12 col-xs-12">
-                <a href="#" class="theme-btn btn-style-three">
+              <div className="btn-column col-md-4 col-sm-12 col-xs-12">
+                <a href="#" className="theme-btn btn-style-three">
                   Request a Quote
                 </a>
               </div>
