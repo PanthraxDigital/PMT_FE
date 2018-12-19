@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Lathe Machine",
+    "imageUrl": "https://farm5.staticflickr.com/4834/45470133835_0924d9d260.jpg",
+    "description": "This is a Lathe Machine"
+  },
+  {
+    "name": "Turret Milling",
+    "imageUrl": "https://farm5.staticflickr.com/4915/46377245831_beaeeae8b9_n.jpg",
+    "description": "This is a Turret Milling"
+  },
+  {
+    "name": "Surface Grinder",
+    "imageUrl": "https://farm5.staticflickr.com/4865/46382744391_72e9cfb4d6_n.jpg",
+    "description": "This is a Surface Grinder"
+  },
+  {
+    "name": "Band Saw",
+    "imageUrl": "https://farm5.staticflickr.com/4811/46380442441_2ddd74f2f5_n.jpg",
+    "description": "This is a Band Saw"
+  },
+  {
+    "name": "Cylindrical Grinder",
+    "imageUrl": "https://farm5.staticflickr.com/4823/46331756332_e463cea462.jpg",
+    "description": "This is a Cylindrical Grinder"
+  },
+  {
+    "name": "Universal Milling",
+    "imageUrl": "https://farm5.staticflickr.com/4878/31443480357_9a1bb849f7_n.jpg",
+    "description": "This is a Universal Milling"
+  },
+  {
+    "name": "VMC Machine",
+    "imageUrl": "https://farm5.staticflickr.com/4807/45470511525_4893d7bae6_o.png",
+    "description": "This is a VMC Machine"
+  },
+  {
+    "name": "Wire EDM",
+    "imageUrl": "https://farm5.staticflickr.com/4819/44565945490_8e287926e4_m.jpg",
+    "description": "This is a Wire EDM"
+  },
+  {
+    "name": "Profile Cutting Machine",
+    "imageUrl": "https://farm5.staticflickr.com/4857/31443573007_dbf3f4045a_n.jpg",
+    "description": "This is a Profile Cutting Machine"
+  },
+  {
+    "name": "Hydraulic Press Brake",
+    "imageUrl": "https://farm5.staticflickr.com/4856/44565974100_709cccda12_n.jpg",
+    "description": "This is a Hydraulic Press Brake"
+  },
+  {
+    "name": "Stamping Press Machine",
+    "imageUrl": "https://farm5.staticflickr.com/4902/31443596507_7f0b785642_n.jpg",
+    "description": "This is a Staming Press Machine"
+  }
+]
