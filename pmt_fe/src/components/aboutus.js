@@ -1,12 +1,10 @@
 import React from "react";
-import bgImage from "../images/background/8.jpg";
-import bgImage1 from "../images/main-slider/image-1-1.jpg";
-import bgImage2 from "../images/main-slider/image-6-1.jpg";
-
-import About from "./HomePage/about";
 import WorkProcess from "./HomePage/workProcess";
 
 class AboutUs extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
@@ -19,7 +17,7 @@ class AboutUs extends React.Component {
         >
           <div className="auto-container">
             <h1>About Us</h1>
-            <div className="text">History to our industry</div>
+            <div className="text">Its all about PMT</div>
           </div>
           {/* <!--Page Info--> */}
           <div className="page-info">
@@ -59,36 +57,57 @@ class AboutUs extends React.Component {
           <div className="auto-container">
             {/* <!--Sec Title--> */}
             <div className="sec-title">
-              <h2>About industry</h2>
+              <h2>About PMT</h2>
             </div>
             <div className="row clearfix">
               <div className="content-column col-md-6 col-sm-12 col-xs-12">
-                <div className="text">
+                <div className="text" style={{ textAlign: "justify" }}>
                   <p>
-                    When you give to Our Industry, know your donation is making
-                    a difference whether you are supporting our signature
-                    Programs or our carefully curated list of gifts that
-                    professional. Over 24 years experience and knowledge
-                    international standards, technologicaly changes and
-                    industrial systems.
+                    <strong>PRATAP MANUFACTURING TECHNOLOGY PVT. LTD </strong>
+                    was established in 2018, by Mr. Pratap Singh Jadon & Mr.
+                    VisheshPratapSingh. <br />
+                    <br />
+                    <strong>Mr. Pratap Singh Jadon </strong>is an Mechanical
+                    Engineer having 19 years. of experience in Tool Room &
+                    Manufacturing Engineering, worked with various companies
+                    Like JBM, Rasandik, Sigma Electric Manufacturing.
+                    <br /> Before starting this firm, Pratap Singh Jadon was
+                    working in Sigma Electric manufacturing corporation pvt ltd
+                    as an AGM Tool room & Manufacturing Engineer & was heading
+                    Tool room & ME department. <br />
+                    <br />
+                    <strong>Mr. Vishesh Pratap Singh </strong>is an Mechanical
+                    Engineer & having 22 years. of Experience in Sand casting
+                    Foundry (Non ferrous). <br />
+                    Before starting this firm, Vishesh Pratap Singh was working
+                    in Sigma Electric manufacturing corporation pvt ltd. as Sr.
+                    Manager Foundry (Non Ferrous) .
                   </p>
-                  <p>
+                  {/* <p>
                     We partner with over 450 amazing seds projects worldwide,
                     and have given over million in cash & product grants to
                     other groups since 2016 our own dynamic suite.
-                  </p>
+                  </p> */}
                 </div>
                 <div className="row clearfix">
                   <div className="column col-md-6 col-sm-6 col-xs-12">
                     <ul className="list-style-one">
-                      <li>Certified Mechanics</li>
-                      <li>Affordable prices</li>
+                      <li>
+                        <strong>Certified Mechanics</strong>
+                      </li>
+                      <li>
+                        <strong>Affordable prices</strong>
+                      </li>
                     </ul>
                   </div>
                   <div className="column col-md-6 col-sm-6 col-xs-12">
                     <ul className="list-style-one">
-                      <li>24/7 availality</li>
-                      <li>No hidden cost</li>
+                      <li>
+                        <strong>24/7 availality</strong>
+                      </li>
+                      <li>
+                        <strong>No hidden cost</strong>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -190,15 +209,16 @@ class AboutUs extends React.Component {
                 <div className="text">
                   <p>
                     We have facility to produce advance work various industrial
-                    applications based on specially developed technol-ogy. We
-                    are also ready to developement by according to users
-                    changing needs. Infrastructure related installation
-                    projects. General repair & industrial and machinery.
+                    applications based on specially developed technology. We are
+                    ready to build as per the client dynamic needs.
+                    Infrastructure related installation projects, general repair
+                    & industrial and machinery.
                   </p>
                   <p>
                     We only source material from tried & trusted suppliers that
                     meet our exacting standards of quality control. Our team
-                    up-to-date, sustainable custom manufacturing solutions.{" "}
+                    up-to-date, sustainable custom manufacturing solutions will
+                    give you excellent solution.{" "}
                   </p>
                 </div>
                 <ul className="choose-info">

@@ -3,6 +3,9 @@ import bgImage2 from "../images/main-slider/image-6-1.jpg";
 import ProjectData from "../content/project";
 
 class Projects extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

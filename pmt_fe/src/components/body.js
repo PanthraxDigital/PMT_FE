@@ -10,6 +10,9 @@ import ContactMap from "./HomePage/contactMap";
 import About from "./HomePage/about";
 
 class Body extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <React.Fragment>

@@ -1,47 +1,42 @@
 [
   {
-    "name": "BANDSAW",
-    "imageUrl": "https://farm5.staticflickr.com/4811/46380442441_2ddd74f2f5_n.jpg",
-    "description": "this is the BandSaw Machine"
+    "name": "Match Plates",
+    "imageUrl": "https://farm5.staticflickr.com/4847/46330896762_1a271daff5_m.jpg",
+    "description": "This is Match Plates"
   },
   {
-    "name": "BENCH GRINDER",
-    "imageUrl": "https://farm5.staticflickr.com/4917/45468039915_eedc12522c_n.jpg",
-    "description": "this is the Band saw machine"
+    "name": "Manual Fixtures",
+    "imageUrl": "https://farm5.staticflickr.com/4888/45469572385_2532f4f6a4_m.jpg",
+    "description": "This is Manual Fixtures"
   },
   {
-    "name": "DRILLING",
-    "imageUrl": "https://farm5.staticflickr.com/4843/45468072365_615a0b5857.jpg",
-    "description": "this is the Universal Milling machine"
+    "name": "Hydraulic Fixtures",
+    "imageUrl": "https://farm5.staticflickr.com/4806/46330896562_53ce19eed2_o.jpg",
+    "description": "This is Hydraulic Fixtures"
   },
   {
-    "name": "LATHE 10 Feet",
-    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-6.jpg",
-    "description": "this is the Turret milling machine"
+    "name": "Profile CNC Jaws",
+    "imageUrl": "https://farm5.staticflickr.com/4842/32510125798_44d09a0c80_m.jpg",
+    "description": "This is Profile CNC Jaws"
   },
   {
-    "name": "CYLINDRICAL GRINDER",
-    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-8.jpg",
-    "description": "this is the Surface Grinder machine"
+    "name": "Sheet metal parts",
+    "imageUrl": "https://farm5.staticflickr.com/4892/31442606457_337e1dea7b_o.jpg",
+    "description": "This is Sheet Metal Parts"
   },
   {
-    "name": "UNIVERSAL MILLING",
-    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-9.jpg",
-    "description": "this is the Cylindraical Grinder machine"
+    "name": "Press Tools",
+    "imageUrl": "https://farm5.staticflickr.com/4836/31442606377_45881a1da7_o.jpg",
+    "description": "This is Press Tools"
   },
   {
-    "name": "VMC MACHINE",
-    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-10.jpg",
-    "description": "this is the Cylindraical Grinder machine"
+    "name": "Bunch trimming dies",
+    "imageUrl": "https://farm5.staticflickr.com/4848/46330896272_c2533d6af1_o.jpg",
+    "description": "This is Bunch Trimming Dies"
   },
   {
-    "name": "WIRE EDM",
-    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-11.jpg",
-    "description": "this is the Cylindraical Grinder machine"
-  },
-  {
-    "name": "PROFILE CUTTING MACHINE",
-    "imageUrl": "http://wp3.commonsupport.com/html/industrypoint/images/resource/services-11.jpg",
-    "description": "this is the Cylindraical Grinder machine"
+    "name": "SPM Machine",
+    "imageUrl": "https://farm5.staticflickr.com/4879/31442606257_672c438243_o.png",
+    "description": "This is SPM Machine"
   }
 ]

@@ -1,29 +1,29 @@
 import React from "react";
 import bgImage2 from "../images/main-slider/image-6-1.jpg";
-import ServiceData from "../content/services";
+import ProjectData from "../content/project";
 
-class Services extends React.Component {
+class Machine extends React.Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
-
   render() {
-    
     return (
       <div>
         {/* <!--Page Title--> */}
         <section
           class="page-title"
           style={{
-            backgroundImage: `
+            backgroundImage: 
+            `
             url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")
             `
           }}
         >
           <div class="auto-container">
-            <h1>Sevices</h1>
+            <h1>Projects</h1>
             <div class="text">
-              Embark the services that could lead to best project development
+              Planned set of interrelated tasks to be executed over a fixed
+              period.
             </div>
           </div>
           {/* <!--Page Info--> */}
@@ -35,6 +35,12 @@ class Services extends React.Component {
                   <li>
                     <a class="fa fa-facebook-f" href="#" />
                   </li>
+                  <li>
+                    <a class="fa fa-twitter" href="#" />
+                  </li>
+                  <li>
+                    <a class="fa fa-google-plus" href="#" />
+                  </li>
                 </ul>
               </div>
               <div class="pull-right">
@@ -42,7 +48,7 @@ class Services extends React.Component {
                   <li>
                     <a href="index.html">Home</a>
                   </li>
-                  <li>Sevices</li>
+                  <li>Projects</li>
                 </ul>
               </div>
             </div>
@@ -64,30 +70,33 @@ class Services extends React.Component {
                     data-filter=".all"
                   >
                     <h4 style={{ textTransform: "uppercase", fontSize: "2em" }}>
-                      Uncompromise services at your footstep
+                      Successfully delivered project
                     </h4>
                   </li>
                 </ul>
               </div>
 
               <div class="items-container row clearfix">
-                {ServiceData.map(data => (
-                  <div class="services-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="inner-box hvr-float">
-                      <div class="image">
+                {ProjectData.map(data => (
+                  <div class="gallery-item masonry-item all agriculture col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                      <figure class="image-box">
                         <img src={data.imageUrl} alt="" />
-                        <div class="overlay-box clearfix">
-                          <div class="text">{data.description}</div>
-                          {/* <a href="solutions-detail.html" class="read-more">
-                            Read More
-                          </a> */}
+                        {/* <!--Overlay Box--> */}
+                        <div class="overlay-box">
+                          <div class="overlay-inner">
+                            <a href="projects-detail.html" class="image-link">
+                              <span class="icon fa fa-link" />
+                            </a>
+                            <div class="content">
+                              <h3>
+                                <a href="projects-detail.html">{data.name}</a>
+                              </h3>
+                              <div class="category">{data.subTitle}</div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                      <div class="lower-box">
-                        <h3>
-                          <a href="solutions-detail.html">{data.name}</a>
-                        </h3>
-                      </div>
+                      </figure>
                     </div>
                   </div>
                 ))}
@@ -100,4 +109,4 @@ class Services extends React.Component {
   }
 }
 
-export default Services;
+export default Machine;

@@ -2,6 +2,9 @@ import React from "react";
 import bgImage2 from "../images/main-slider/image-6-1.jpg";
 
 class ContactUs extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

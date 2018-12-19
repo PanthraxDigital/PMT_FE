@@ -1407,6 +1407,8 @@ img{
 
 .services-block .inner-box .image{
 	position:relative;
+	height: 16em;
+	border: 1px solid gray;
 }
 
 .services-block .inner-box .image img{
