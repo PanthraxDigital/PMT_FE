@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class About extends React.Component {
   render() {
@@ -9,17 +10,17 @@ class About extends React.Component {
           <div class="auto-container">
             {/* <!-- Sec Title --> */}
             <div class="sec-title">
-              <h2>About industry</h2>
+              <h2>About PMT</h2>
             </div>
             <div class="row clearfix">
               {/* <!-- Content Column --> */}
               <div class="content-column col-md-6 col-sm-12 col-xs-12">
                 <div class="text">
-                  The mechanical engineering field requires an understanding of
-                  core areas including mechanics, dynamics, thermodynamics,
-                  materials science, structural analysis, and electricity. It is
-                  the branch of engineering that involves the design,
-                  production, and operation of machinery.
+                  PRATAP MANUFACTURING TECHNOLOGY PVT. LTD was established in
+                  2018, by Mr. Pratap Singh Jadon & Mr. VisheshPratapSingh. We
+                  are specialized in providing high quality, reliable, accurate
+                  and durable products for our customers.{" "}
+                  <Link to="/aboutus">Know more</Link>
                 </div>
                 <div class="image">
                   <img

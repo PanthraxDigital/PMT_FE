@@ -59,10 +59,10 @@ class Header extends React.Component {
                   <div className="logo">
                     <Link to="/">
                       <img
-                        src="https://farm5.staticflickr.com/4884/45967049312_b8c8cfd72d_n.jpg"
+                        src="https://farm5.staticflickr.com/4908/44560057870_8c76b8f129_o.png"
                         alt=""
                         title=""
-                        style={{ width: "65%" }}
+                        style={{ width: "55%" }}
                       />
                     </Link>
                   </div>
@@ -70,7 +70,7 @@ class Header extends React.Component {
 
                 <div className="pull-right upper-right clearfix">
                   {/* <!-- Info Box --> */}
-                  <div className="upper-column info-box">
+                  {/* <div className="upper-column info-box">
                     <div className="icon-box">
                       <span className="flaticon-stamp-1" />
                     </div>
@@ -80,7 +80,7 @@ class Header extends React.Component {
                       </li>
                       <li>ISO 9001: 2010</li>
                     </ul>
-                  </div>
+                  </div> */}
 
                   {/* <!-- Info Box --> */}
                   <div className="upper-column info-box">
@@ -98,7 +98,7 @@ class Header extends React.Component {
                   {/* <!-- Info Box --> */}
                   <div className="upper-column info-box">
                     <Link to="/contactus" className="order-btn theme-btn">
-                      Get a Quote
+                      Get in Touch
                     </Link>
                   </div>
                 </div>
@@ -137,6 +137,9 @@ class Header extends React.Component {
                       </li>
                       <li className="dropdown">
                         <Link to="/services">Services</Link>
+                      </li>
+                      <li>
+                        <Link to="/machines">Machines</Link>
                       </li>
                       <li className="dropdown">
                         <Link to="/projects">Projects</Link>
@@ -196,11 +199,12 @@ class Header extends React.Component {
             <div className="auto-container clearfix">
               {/* <!-- Logo --> */}
               <div className="logo pull-left">
-                <Link to="/" className="img-responsive" style={{width:'60%'}}>
+                <Link to="/" className="img-responsive">
                   <img
-                    src="https://farm5.staticflickr.com/4905/44201311740_6759abce3d_s.jpg"
+                    src="https://farm5.staticflickr.com/4908/44560057870_8c76b8f129_o.png"
                     alt=""
                     title=""
+                    style={{ maxWidth: "40%" }}
                   />
                 </Link>
               </div>
@@ -233,6 +237,9 @@ class Header extends React.Component {
                       </li>
                       <li className="dropdown">
                         <Link to="/services">Services</Link>
+                      </li>
+                      <li>
+                        <Link to="/machines">Machines</Link>
                       </li>
                       <li className="dropdown">
                         <Link to="/projects">Projects</Link>

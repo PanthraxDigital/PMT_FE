@@ -10,7 +10,7 @@ class Services extends React.Component {
           <div className="auto-container">
             {/* <!-- Sec Title --> */}
             <div className="sec-title">
-              <h2>Conventional Machines</h2>
+              <h2>Our Capabilities</h2>
             </div>
             <div className="row clearfix">
               {serviceData.map((data, index) => (

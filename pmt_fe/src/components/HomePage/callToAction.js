@@ -21,7 +21,7 @@ class CallToAction extends React.Component {
               {/* <!-- Btn Column --> */}
               <div className="btn-column col-md-4 col-sm-12 col-xs-12">
                 <a href="#" className="theme-btn btn-style-three">
-                  Request a Quote
+                  Get in Touch
                 </a>
               </div>
             </div>

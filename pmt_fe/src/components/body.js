@@ -15,7 +15,7 @@ class Body extends React.Component {
       <React.Fragment>
         <MainSlider />
         <CallToAction />
-        <Services />
+        {/* <Services /> */}
         <About />
         <WorkProcess />
         <Project />

@@ -29,7 +29,7 @@ class Footer extends React.Component {
                         Over 20 years experience and knowledge of international
                         industrial systems, dedicated to provide the best
                         economical solutions to ourvalued customers. We Won Many
-                        Factory Awards and Ceritifide Since 2005. And we are
+                        Factory Awards and Ceritificates. And we are
                         very consistent with our on time delivery service. This
                         gives us edge over rest of the folk in the market.
                       </div>
@@ -82,12 +82,6 @@ class Footer extends React.Component {
                                 <a href="#">About Us</a>
                               </li>
                               <li>
-                                <a href="#">Career</a>
-                              </li>
-                              <li>
-                                <a href="#">Get Quote</a>
-                              </li>
-                              <li>
                                 <a href="#">Services</a>
                               </li>
                               <li>
@@ -95,41 +89,13 @@ class Footer extends React.Component {
                               </li>
                             </ul>
                           </div>
-                          {/* <div className="col-md-6 col-sm-6 col-xs-12">
-                            <ul className="lisks style-two">
-                              <li>
-                                <a href="#">Services</a>
-                              </li>
-                              <li>
-                                <a href="#">Team</a>
-                              </li>
-                              <li>
-                                <a href="#">Shop</a>
-                              </li>
-                              <li>
-                                <a href="#">Blogs</a>
-                              </li>
-                              <li>
-                                <a href="#">Contact</a>
-                              </li>
-                            </ul>
-                          </div> */}
+                          
                         </div>
                         <ul className="social-icon-two">
                           <li className="follow">Follow us :</li>
                           <li>
                             <a href="#">
                               <span className="fa fa-facebook" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <span className="fa fa-twitter" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <span className="fa fa-google-plus" />
                             </a>
                           </li>
                         </ul>
@@ -147,7 +113,7 @@ class Footer extends React.Component {
           <div className="auto-container">
             <div className="copyright">
               &copy; 2018 Pratap Engineering Technology. Powered by{" "}
-              <a href="http://www.panthrax.com">PDA</a>
+              <a href="http://www.panthrax.com">PANTHRAX</a>
             </div>
           </div>
         </div>

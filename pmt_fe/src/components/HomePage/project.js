@@ -9,8 +9,8 @@ class Project extends React.Component {
     var settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       autoplay: true,
       speed: 2000,
       swipeToSlide: true,
@@ -64,7 +64,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src="https://farm5.staticflickr.com/4906/45105031585_885173b3be_m.jpg"
+                          src="https://farm5.staticflickr.com/4853/31441595777_491464d811_n.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -76,10 +76,10 @@ class Project extends React.Component {
                             <div class="content">
                               <h3>
                                 <a href="projects-detail.html">
-                                  Pre Construction
+                                  Tube Bending Parts
                                 </a>
                               </h3>
-                              <div class="category">Agriculture, Chemical</div>
+                              {/* <div class="category">Agriculture, Chemical</div> */}
                             </div>
                           </div>
                         </div>
@@ -90,7 +90,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src="https://farm5.staticflickr.com/4817/31077533767_d73acea4bc_m.jpg"
+                          src="https://farm5.staticflickr.com/4851/31441676597_43cd160334_n.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -102,10 +102,9 @@ class Project extends React.Component {
                             <div class="content">
                               <h3>
                                 <a href="projects-detail.html">
-                                  Pre Construction
+                                  Press tool for casting trimming
                                 </a>
                               </h3>
-                              <div class="category">Agriculture, Chemical</div>
                             </div>
                           </div>
                         </div>
@@ -116,7 +115,7 @@ class Project extends React.Component {
                     <div class="inner-box">
                       <figure class="image-box">
                         <img
-                          src="https://farm5.staticflickr.com/4895/45105031725_72cda6384c_m.jpg"
+                          src="https://farm5.staticflickr.com/4860/31441596257_c9e54db5e8_n.jpg"
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
@@ -128,146 +127,17 @@ class Project extends React.Component {
                             <div class="content">
                               <h3>
                                 <a href="projects-detail.html">
-                                  Pre Construction
+                                  Match plate for sand casting
                                 </a>
                               </h3>
-                              <div class="category">Agriculture, Chemical</div>
+                              {/* <div class="category">Agriculture, Chemical</div> */}
                             </div>
                           </div>
                         </div>
                       </figure>
                     </div>
                   </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src="https://farm5.staticflickr.com/4853/31077534147_ecd54c70c4_m.jpg"
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src="https://farm5.staticflickr.com/4853/31077534147_ecd54c70c4_m.jpg"
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src="https://farm5.staticflickr.com/4906/45105031585_885173b3be_m.jpg"
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src="https://farm5.staticflickr.com/4817/31077533767_d73acea4bc_m.jpg"
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
-                  <div class="gallery-item">
-                    <div class="inner-box">
-                      <figure class="image-box">
-                        <img
-                          src="https://farm5.staticflickr.com/4895/45105031725_72cda6384c_m.jpg"
-                          alt=""
-                        />
-                        {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">
-                                  Pre Construction
-                                </a>
-                              </h3>
-                              <div class="category">Agriculture, Chemical</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
-                    </div>
-                  </div>
+               
                 </Slider>
               </div>
             </div>

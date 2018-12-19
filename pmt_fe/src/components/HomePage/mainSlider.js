@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class MainSlider extends React.Component {
   render() {
@@ -260,12 +261,12 @@ class MainSlider extends React.Component {
                       textTransform: "left"
                     }}
                   >
-                    <a href="#" className="theme-btn btn-style-one">
+                    <Link to="/aboutus" className="theme-btn btn-style-one">
                       Learn More
-                    </a>
-                    <a href="#" className="theme-btn btn-style-two">
+                    </Link>
+                    <Link to="/sevices" className="theme-btn btn-style-two">
                       Our Solutions
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>

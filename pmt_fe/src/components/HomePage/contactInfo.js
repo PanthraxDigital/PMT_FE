@@ -9,7 +9,7 @@ class ContactInfo extends React.Component {
           <div className="auto-container">
             <div className="row clearfix">
               {/* <!-- Info Block --> */}
-              {/* <div className="info-block col-md-4 col-sm-6 col-xs-12">
+              <div className="info-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner">
                   <div className="icon-box">
                     <span className="icon fa fa-map-marker" />
@@ -19,10 +19,10 @@ class ContactInfo extends React.Component {
                     Jhotwara-302012, Jaipur, Rajasthan, IN
                   </div>
                 </div>
-              </div> */}
+              </div>
 
               {/* <!-- Info Block --> */}
-              <div className="info-block col-md-6 col-sm-6 col-xs-12">
+              <div className="info-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner">
                   <div className="icon-box">
                     <span className="icon fa fa-volume-control-phone" />
@@ -34,13 +34,13 @@ class ContactInfo extends React.Component {
               </div>
 
               {/* <!-- Info Block --> */}
-              <div className="info-block col-md-6 col-sm-6 col-xs-12">
+              <div className="info-block col-md-4 col-sm-6 col-xs-12">
                 <div className="inner">
                   <div className="icon-box">
                     <span className="icon fa fa-envelope-o" />
                   </div>
                   <div className="text">
-                    <span>support@pratapmanufacturingtechnology.com</span>We
+                    <span>support@thepmt.in</span>We
                     reply within 24 hours
                   </div>
                 </div>

@@ -77,7 +77,7 @@ a,
 .archive-list li a:hover::before, .archive-list li a:hover,
 .shop-comment-form .rating-box .rating a:hover,
 .sidebar-page-container .comments-area .comment .comment-inner .rating{
-	color:#ffb200;
+	color:#216E86;
 }
 
 /*Background Color*/
@@ -118,7 +118,7 @@ a,
 .subscribe-form button,
 .main-menu .navigation > li:hover a::before,
 .main-menu .navigation > li.current a:before{
-	background-color:#ffb200;
+	background-color:#216E86;
 }
 
 /*Border Color*/
@@ -174,7 +174,7 @@ a,
 .subscribe-form .form-group input[type="tel"],
 .subscribe-form .form-group input[type="email"],
 .subscribe-form .form-group textarea{
-	border-color:#ffb200;
+	border-color:#216E86;
 }
 
 /*RGBA Color Light*/
@@ -190,7 +190,7 @@ a,
 @media only screen and (max-width: 767px){
 	
 	.main-menu .navbar-header .navbar-toggle{
-		border-color:#ffb200;
+		border-color:#216E86;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle,
@@ -209,7 +209,7 @@ a,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a,
 	.header-style-two.inner-header .main-menu .navigation > li > a{
-		background-color:#ffb200;
+		background-color:#216E86;
 	}
 	
 }
