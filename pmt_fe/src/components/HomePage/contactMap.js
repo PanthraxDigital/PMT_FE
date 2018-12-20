@@ -8,7 +8,9 @@ class ContactMap extends React.Component {
         <section
           class="contact-map-section"
           style={{
-            backgroundImage: `url("https://farm5.staticflickr.com/4822/46016313831_3e4180af74_b.jpg")`
+            // backgroundImage: `url("https://farm5.staticflickr.com/4822/46016313831_3e4180af74_b.jpg")`
+            backgroundImage: `url("https://farm5.staticflickr.com/4889/46343004762_41f8cdc5a3_o.png")`,
+            backgroundRepeat: "no-repeat"
           }}
         >
           {/* <!-- Map Outer --> */}

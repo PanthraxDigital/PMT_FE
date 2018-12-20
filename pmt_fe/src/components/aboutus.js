@@ -211,11 +211,11 @@ class AboutUs extends React.Component {
                     Advanced <br /> Technology
                   </li>
                   <li>
-                    <span class="icon flaticon-time-passing" />
+                    <span className="icon flaticon-time-passing" />
                     Delivery <br /> On Time
                   </li>
                   <li>
-                    <span class="icon flaticon-engineer" />
+                    <span className="icon flaticon-engineer" />
                     Certified <br /> Engineers
                   </li>
                 </ul>

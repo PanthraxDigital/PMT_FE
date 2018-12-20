@@ -1,6 +1,7 @@
 import React from "react";
 import MainSlider from "./HomePage/mainSlider";
 import MainSlider2 from "./HomePage/mainSlider2";
+import MainSlider3 from "./HomePage/mainSlider3";
 import CallToAction from "./HomePage/callToAction";
 import Services from "./HomePage/services";
 import WorkProcess from "./HomePage/workProcess";

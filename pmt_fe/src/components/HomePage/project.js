@@ -68,7 +68,7 @@ class Project extends React.Component {
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
+                        {/* <div class="overlay-box">
                           <div class="overlay-inner">
                             <a href="projects-detail.html" class="image-link">
                               <span class="icon fa fa-link" />
@@ -79,9 +79,19 @@ class Project extends React.Component {
                                   Tube Bending Parts
                                 </a>
                               </h3>
-                              {/* <div class="category">Agriculture, Chemical</div> */}
                             </div>
                           </div>
+                        </div> */}
+                        <div>
+                          <h3
+                            style={{
+                              color: "white",
+                              textAlign: "center",
+                              padding: "0.5em"
+                            }}
+                          >
+                            Tube Bending Parts
+                          </h3>
                         </div>
                       </figure>
                     </div>
@@ -94,7 +104,7 @@ class Project extends React.Component {
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
+                        {/* <div class="overlay-box">
                           <div class="overlay-inner">
                             <a href="projects-detail.html" class="image-link">
                               <span class="icon fa fa-link" />
@@ -107,6 +117,17 @@ class Project extends React.Component {
                               </h3>
                             </div>
                           </div>
+                        </div> */}
+                        <div>
+                          <h3
+                            style={{
+                              color: "white",
+                              textAlign: "center",
+                              padding: "0.5em"
+                            }}
+                          >
+                            Press tool for casting trimming
+                          </h3>
                         </div>
                       </figure>
                     </div>
@@ -119,7 +140,7 @@ class Project extends React.Component {
                           alt=""
                         />
                         {/* <!-- Overlay Box --> */}
-                        <div class="overlay-box">
+                        {/* <div class="overlay-box">
                           <div class="overlay-inner">
                             <a href="projects-detail.html" class="image-link">
                               <span class="icon fa fa-link" />
@@ -130,14 +151,24 @@ class Project extends React.Component {
                                   Match plate for sand casting
                                 </a>
                               </h3>
-                              {/* <div class="category">Agriculture, Chemical</div> */}
+                              
                             </div>
                           </div>
+                        </div> */}
+                        <div>
+                          <h3
+                            style={{
+                              color: "white",
+                              textAlign: "center",
+                              padding: "0.5em"
+                            }}
+                          >
+                            Match plates for Sand Casting
+                          </h3>
                         </div>
                       </figure>
                     </div>
                   </div>
-               
                 </Slider>
               </div>
             </div>
