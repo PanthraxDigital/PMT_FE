@@ -182,7 +182,8 @@ class MainSlider extends React.Component {
                     data-bgposition="center center"
                     data-bgrepeat="no-repeat"
                     data-no-retina=""
-                    src="https://farm5.staticflickr.com/4869/45104865175_eab206f8f4_h.jpg"
+                    // src="https://farm5.staticflickr.com/4869/45104865175_eab206f8f4_h.jpg"
+                    src="https://farm5.staticflickr.com/4847/31452390037_be9c7a7126_b.jpg"
                   />
 
                   <div

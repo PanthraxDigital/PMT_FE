@@ -15,7 +15,7 @@ class Machines extends React.Component {
           class="page-title"
           style={{
             backgroundImage: `
-            url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")
+            url("https://farm5.staticflickr.com/4900/32520213268_0c80e82bcf.jpg")
             `
           }}
         >

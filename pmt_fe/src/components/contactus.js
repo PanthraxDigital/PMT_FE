@@ -12,9 +12,7 @@ class ContactUs extends React.Component {
         <section
           className="page-title"
           style={{
-            backgroundImage: 
-            
-            `url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")`
+            backgroundImage: `url("https://farm5.staticflickr.com/4814/45479846375_05ba5930ba.jpg")`
           }}
         >
           <div className="auto-container">
@@ -29,12 +27,6 @@ class ContactUs extends React.Component {
                   <li className="share">Share on :</li>
                   <li>
                     <a className="fa fa-facebook-f" href="#" />
-                  </li>
-                  <li>
-                    <a className="fa fa-twitter" href="#" />
-                  </li>
-                  <li>
-                    <a className="fa fa-google-plus" href="#" />
                   </li>
                 </ul>
               </div>
@@ -125,14 +117,14 @@ class ContactUs extends React.Component {
                   <li>
                     <span className="icon fa fa-envelope-o" />
                     <strong style={{ fontSize: "16px" }}>
-                      support@pratapengineeringtechnology.com
+                      support@thepmt.in
                     </strong>
                     We reply within 24 hours
                   </li>
                   <li>
                     <span className="icon fa fa-map-marker" />
-                    A/204,Virat Prime, plot no-24-25,Shiv Nagar A Niwaru road
-                    Jhotwara Jaipur-302012, Rajasthan, IN
+                    J-497B,Sarna Dungar RIICO Industrial area Jaipur -302012,
+                    Rajasthan, IN
                   </li>
                 </ul>
                 <ul className="social-icon-two">

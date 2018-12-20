@@ -15,7 +15,7 @@ class Projects extends React.Component {
           style={{
             backgroundImage: 
             `
-            url("https://farm5.staticflickr.com/4853/45966874932_a373ccfb5d_n.jpg")
+            url("https://farm5.staticflickr.com/4828/32520100158_574d5098a9.jpg")
             `
           }}
         >

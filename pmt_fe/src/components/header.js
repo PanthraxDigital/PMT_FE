@@ -29,7 +29,8 @@ class Header extends React.Component {
                   </ul>
                 </div>
                 <div className="top-right clearfix">
-                  <ul className="social-icon-one">
+                  <div style={{ color: "white" }}>GSTNO-08AAWFP2482K1ZG</div>
+                  <ul className="social-icon-one" style={{ display: "none" }}>
                     <li>
                       <a href="#">
                         <span className="fa fa-facebook" />

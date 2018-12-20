@@ -15,8 +15,8 @@ class ContactInfo extends React.Component {
                     <span className="icon fa fa-map-marker" />
                   </div>
                   <div className="text">
-                    A204,Virat Prime, plot no-24-25,Shiv Nagar A Niwaru road
-                    Jhotwara-302012, Jaipur, Rajasthan, IN
+                    J-497B,Sarna Dungar RIICO Industrial area Jaipur-302013,
+                    Rajasthan, IN
                   </div>
                 </div>
               </div>
@@ -40,8 +40,7 @@ class ContactInfo extends React.Component {
                     <span className="icon fa fa-envelope-o" />
                   </div>
                   <div className="text">
-                    <span>support@thepmt.in</span>We
-                    reply within 24 hours
+                    <span>support@thepmt.in</span>We reply within 24 hours
                   </div>
                 </div>
               </div>
