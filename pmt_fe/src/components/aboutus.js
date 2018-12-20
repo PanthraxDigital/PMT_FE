@@ -1,5 +1,6 @@
 import React from "react";
 import WorkProcess from "./HomePage/workProcess";
+import {Link} from 'react-router-dom';
 
 class AboutUs extends React.Component {
   componentDidMount() {
@@ -22,27 +23,10 @@ class AboutUs extends React.Component {
           {/* <!--Page Info--> */}
           <div className="page-info">
             <div className="auto-container clearfix">
-              <div className="pull-left">
-                <ul className="social-icon-one">
-                  <li className="share">Share on :</li>
-                  <li>
-                    <a className="fa fa-facebook-f" href="#" />
-                  </li>
-                  <li>
-                    <a className="fa fa-twitter" href="#" />
-                  </li>
-                  <li>
-                    <a className="fa fa-google-plus" href="#" />
-                  </li>
-                  <li>
-                    <a className="fa fa-pinterest-p" href="#" />
-                  </li>
-                </ul>
-              </div>
               <div className="pull-right">
                 <ul className="bread-crumb clearfix">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>About us</li>
                 </ul>
@@ -139,7 +123,7 @@ class AboutUs extends React.Component {
                     {/* <!--Content Column--> */}
                     <div className="content-column col-md-6 col-sm-6 col-xs-12">
                       <h3>
-                        <a href="#">Our Mission</a>
+                        <Link to="/aboutus">Our Mission</Link>
                       </h3>
                       <div className="text">
                         We have facility to produce advance work various
@@ -167,7 +151,7 @@ class AboutUs extends React.Component {
                     {/* <!--Content Column--> */}
                     <div className="content-column col-md-6 col-sm-6 col-xs-12">
                       <h3>
-                        <a href="#">Our Vision</a>
+                        <Link to="/aboutus">Our Vision</Link>
                       </h3>
                       <div className="text">
                         Complete account of work system, andexpound the actual

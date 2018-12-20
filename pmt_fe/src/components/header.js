@@ -29,7 +29,13 @@ class Header extends React.Component {
                   </ul>
                 </div>
                 <div className="top-right clearfix">
-                  <div style={{ color: "white" }}>GSTNO-08AAWFP2482K1ZG</div>
+                  <ul className="social-icon-one">
+                    <li>
+                      <a href="#">
+                        <span>GST# : 08AAWFP2482K1ZG</span>
+                      </a>
+                    </li>
+                  </ul>
                   <ul className="social-icon-one" style={{ display: "none" }}>
                     <li>
                       <a href="#">

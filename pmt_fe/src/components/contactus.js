@@ -1,5 +1,6 @@
 import React from "react";
 import bgImage2 from "../images/main-slider/image-6-1.jpg";
+import {Link} from 'react-router-dom'
 
 class ContactUs extends React.Component {
   componentDidMount() {
@@ -22,7 +23,7 @@ class ContactUs extends React.Component {
           {/* <!--Page Info--> */}
           <div className="page-info">
             <div className="auto-container clearfix">
-              <div className="pull-left">
+              <div className="pull-left" style={{display:'none'}}>
                 <ul className="social-icon-one">
                   <li className="share">Share on :</li>
                   <li>
@@ -33,7 +34,7 @@ class ContactUs extends React.Component {
               <div className="pull-right">
                 <ul className="bread-crumb clearfix">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>Contact</li>
                 </ul>
@@ -127,23 +128,7 @@ class ContactUs extends React.Component {
                     Rajasthan, IN
                   </li>
                 </ul>
-                <ul className="social-icon-two">
-                  <li>
-                    <a href="#">
-                      <span className="fa fa-facebook" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <span className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <span className="fa fa-google-plus" />
-                    </a>
-                  </li>
-                </ul>
+                
               </div>
             </div>
           </div>

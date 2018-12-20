@@ -1,5 +1,6 @@
 import React from "react";
 import machineData from "../content/machine";
+import { Link } from "react-router-dom";
 
 class Machines extends React.Component {
   componentDidMount() {
@@ -7,39 +8,38 @@ class Machines extends React.Component {
   }
 
   render() {
-    
     return (
       <div>
         {/* <!--Page Title--> */}
         <section
-          class="page-title"
+          className="page-title"
           style={{
             backgroundImage: `
             url("https://farm5.staticflickr.com/4900/32520213268_0c80e82bcf.jpg")
             `
           }}
         >
-          <div class="auto-container">
+          <div className="auto-container">
             <h1>Machines</h1>
-            <div class="text">
+            <div className="text">
               The state-of-art machines shape your products
             </div>
           </div>
           {/* <!--Page Info--> */}
-          <div class="page-info">
-            <div class="auto-container clearfix">
-              <div class="pull-left">
-                <ul class="social-icon-one">
-                  <li class="share">Share on :</li>
+          <div className="page-info">
+            <div className="auto-container clearfix">
+              <div className="pull-left" style={{ display: "none" }}>
+                <ul className="social-icon-one">
+                  <li className="share">Share on :</li>
                   <li>
-                    <a class="fa fa-facebook-f" href="#" />
+                    <a className="fa fa-facebook-f" href="#" />
                   </li>
                 </ul>
               </div>
-              <div class="pull-right">
-                <ul class="bread-crumb clearfix">
+              <div className="pull-right">
+                <ul className="bread-crumb clearfix">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>Machines</li>
                 </ul>
@@ -50,39 +50,39 @@ class Machines extends React.Component {
         {/* <!--End Page Title--> */}
 
         {/* <!--Project Section--> */}
-        <section class="project-page-section">
-          <div class="auto-container">
+        <section className="project-page-section">
+          <div className="auto-container">
             {/* <!--Sortable Masonry--> */}
-            <div class="sortable-masonry">
+            <div className="sortable-masonry">
               {/* <!--Filter--> */}
-              <div class="filters clearfix">
-                <ul class="filter-tabs filter-btns clearfix">
+              <div className="filters clearfix">
+                <ul className="filter-tabs filter-btns clearfix">
                   <li
-                    class="active filter"
+                    className="active filter"
                     data-role="button"
                     data-filter=".all"
                   >
                     <h4 style={{ textTransform: "uppercase", fontSize: "2em" }}>
-                      State-Of-Art Machines 
+                      State-Of-Art Machines
                     </h4>
                   </li>
                 </ul>
               </div>
 
-              <div class="items-container row clearfix">
-                {machineData.map(data => (
-                  <div class="services-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="inner-box hvr-float">
-                      <div class="image">
+              <div className="items-container row clearfix">
+                {machineData.map((data, index) => (
+                  <div
+                    className="services-block col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                    key={index}
+                  >
+                    <div className="inner-box hvr-float">
+                      <div className="image">
                         <img src={data.imageUrl} alt="" />
-                        <div class="overlay-box clearfix">
-                          <div class="text">{data.description}</div>
-                          {/* <a href="solutions-detail.html" class="read-more">
-                            Read More
-                          </a> */}
+                        <div className="overlay-box clearfix">
+                          <div className="text">{data.description}</div>
                         </div>
                       </div>
-                      <div class="lower-box">
+                      <div className="lower-box">
                         <h3>
                           <a href="solutions-detail.html">{data.name}</a>
                         </h3>

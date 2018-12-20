@@ -8,37 +8,36 @@ class Services extends React.Component {
   }
 
   render() {
-    
     return (
       <div>
         {/* <!--Page Title--> */}
         <section
-          class="page-title"
+          className="page-title"
           style={{
             backgroundImage: `
             url("https://farm5.staticflickr.com/4823/44575274380_ec7f349baf.jpg")
             `
           }}
         >
-          <div class="auto-container">
+          <div className="auto-container">
             <h1>Sevices</h1>
-            <div class="text">
+            <div className="text">
               Embark the services that could lead to best project development
             </div>
           </div>
           {/* <!--Page Info--> */}
-          <div class="page-info">
-            <div class="auto-container clearfix">
-              <div class="pull-left">
-                <ul class="social-icon-one">
-                  <li class="share">Share on :</li>
+          <div className="page-info">
+            <div className="auto-container clearfix">
+              <div className="pull-left" style={{ display: "none" }}>
+                <ul className="social-icon-one">
+                  <li className="share">Share on :</li>
                   <li>
-                    <a class="fa fa-facebook-f" href="#" />
+                    <a className="fa fa-facebook-f" href="#" />
                   </li>
                 </ul>
               </div>
-              <div class="pull-right">
-                <ul class="bread-crumb clearfix">
+              <div className="pull-right">
+                <ul className="bread-crumb clearfix">
                   <li>
                     <a href="index.html">Home</a>
                   </li>
@@ -51,15 +50,15 @@ class Services extends React.Component {
         {/* <!--End Page Title--> */}
 
         {/* <!--Project Section--> */}
-        <section class="project-page-section">
-          <div class="auto-container">
+        <section className="project-page-section">
+          <div className="auto-container">
             {/* <!--Sortable Masonry--> */}
-            <div class="sortable-masonry">
+            <div className="sortable-masonry">
               {/* <!--Filter--> */}
-              <div class="filters clearfix">
-                <ul class="filter-tabs filter-btns clearfix">
+              <div className="filters clearfix">
+                <ul className="filter-tabs filter-btns clearfix">
                   <li
-                    class="active filter"
+                    className="active filter"
                     data-role="button"
                     data-filter=".all"
                   >
@@ -70,23 +69,23 @@ class Services extends React.Component {
                 </ul>
               </div>
 
-              <div class="items-container row clearfix">
-                {ServiceData.map(data => (
-                  <div class="services-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                    <div class="inner-box hvr-float">
-                      <div class="image">
+              <div className="items-container row clearfix">
+                {ServiceData.map((data, index) => (
+                  <div
+                    className="services-block col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                    key={index}
+                  >
+                    <div className="inner-box hvr-float">
+                      <div className="image">
                         <img src={data.imageUrl} alt="" />
-                        <div class="overlay-box clearfix">
-                          <div class="text">{data.description}</div>
-                          {/* <a href="solutions-detail.html" class="read-more">
-                            Read More
-                          </a> */}
+                        <div className="overlay-box clearfix">
+                          <div className="text">{data.description}</div>
                         </div>
                       </div>
-                      <div class="lower-box">
-                        <h3>
+                      <div className="lower-box">
+                        <h4>
                           <a href="solutions-detail.html">{data.name}</a>
-                        </h3>
+                        </h4>
                       </div>
                     </div>
                   </div>

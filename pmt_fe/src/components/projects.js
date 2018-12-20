@@ -11,40 +11,25 @@ class Projects extends React.Component {
       <div>
         {/* <!--Page Title--> */}
         <section
-          class="page-title"
+          className="page-title"
           style={{
-            backgroundImage: 
-            `
+            backgroundImage: `
             url("https://farm5.staticflickr.com/4828/32520100158_574d5098a9.jpg")
             `
           }}
         >
-          <div class="auto-container">
+          <div className="auto-container">
             <h1>Projects</h1>
-            <div class="text">
+            <div className="text">
               Planned set of interrelated tasks to be executed over a fixed
               period.
             </div>
           </div>
           {/* <!--Page Info--> */}
-          <div class="page-info">
-            <div class="auto-container clearfix">
-              <div class="pull-left">
-                <ul class="social-icon-one">
-                  <li class="share">Share on :</li>
-                  <li>
-                    <a class="fa fa-facebook-f" href="#" />
-                  </li>
-                  <li>
-                    <a class="fa fa-twitter" href="#" />
-                  </li>
-                  <li>
-                    <a class="fa fa-google-plus" href="#" />
-                  </li>
-                </ul>
-              </div>
-              <div class="pull-right">
-                <ul class="bread-crumb clearfix">
+          <div className="page-info">
+            <div className="auto-container clearfix">
+              <div className="pull-right">
+                <ul className="bread-crumb clearfix">
                   <li>
                     <a href="index.html">Home</a>
                   </li>
@@ -57,46 +42,40 @@ class Projects extends React.Component {
         {/* <!--End Page Title--> */}
 
         {/* <!--Project Section--> */}
-        <section class="project-page-section">
-          <div class="auto-container">
+        <section className="project-page-section">
+          <div className="auto-container">
             {/* <!--Sortable Masonry--> */}
-            <div class="sortable-masonry">
+            <div className="sortable-masonry">
               {/* <!--Filter--> */}
-              <div class="filters clearfix">
-                <ul class="filter-tabs filter-btns clearfix">
+              <div className="filters clearfix">
+                <ul className="filter-tabs filter-btns clearfix">
                   <li
-                    class="active filter"
+                    className="active filter"
                     data-role="button"
                     data-filter=".all"
                   >
                     <h4 style={{ textTransform: "uppercase", fontSize: "2em" }}>
-                      Successfully delivered project
+                      Successfully delivered projects
                     </h4>
                   </li>
                 </ul>
               </div>
 
-              <div class="items-container row clearfix">
-                {ProjectData.map(data => (
-                  <div class="gallery-item masonry-item all agriculture col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="inner-box">
-                      <figure class="image-box">
+              <div className="items-container row clearfix">
+                {ProjectData.map((data, index) => (
+                  <div
+                    className="services-block col-lg-3 col-md-6 col-sm-6 col-xs-12"
+                    key={index}
+                  >
+                    <div className="inner-box hvr-float">
+                      <div className="image">
                         <img src={data.imageUrl} alt="" />
-                        {/* <!--Overlay Box--> */}
-                        <div class="overlay-box">
-                          <div class="overlay-inner">
-                            <a href="projects-detail.html" class="image-link">
-                              <span class="icon fa fa-link" />
-                            </a>
-                            <div class="content">
-                              <h3>
-                                <a href="projects-detail.html">{data.name}</a>
-                              </h3>
-                              <div class="category">{data.subTitle}</div>
-                            </div>
-                          </div>
-                        </div>
-                      </figure>
+                      </div>
+                      <div className="lower-box">
+                        <h4>
+                          <a href="solutions-detail.html">{data.name}</a>
+                        </h4>
+                      </div>
                     </div>
                   </div>
                 ))}

@@ -36,16 +36,16 @@ class About extends React.Component {
                   <div class="about-block col-md-6 col-sm-6 col-xs-12">
                     <div class="inner-box">
                       <div class="image">
-                        <a href="about.html">
+                        <Link to="/aboutus">
                           <img
                             src="https://farm5.staticflickr.com/4865/45292309144_bd748628d0_m.jpg"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="lower-box">
                         <h3>
-                          <a href="about.html">Our Mission</a>
+                          <Link to="/aboutus">Our Mission</Link>
                         </h3>
                         <div class="text">
                           - To become leader in Manufacturing Dies, Molds, Jigs
@@ -61,16 +61,16 @@ class About extends React.Component {
                   <div class="about-block col-md-6 col-sm-6 col-xs-12">
                     <div class="inner-box">
                       <div class="image">
-                        <a href="about.html">
+                        <Link to="/aboutus">
                           <img
                             src="https://farm5.staticflickr.com/4882/45292308994_fc6cdc02b7_m.jpg"
                             alt=""
                           />
-                        </a>
+                        </Link>
                       </div>
                       <div class="lower-box">
                         <h3>
-                          <a href="about.html">Our Vision</a>
+                          <Link to="/aboutus">Our Vision</Link>
                         </h3>
                         <div class="text">
                           To bring the culture of innovation and quality in
