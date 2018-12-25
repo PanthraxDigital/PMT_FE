@@ -6,6 +6,13 @@ import "slick-carousel/slick/slick.css";
 
 class Project extends React.Component {
   render() {
+    const projectCaption = {
+      color: "white",
+      textAlign: "center",
+      padding: "0.5em",
+      fontSize: "1.5em"
+    };
+
     var settings = {
       dots: true,
       infinite: true,
@@ -83,15 +90,7 @@ class Project extends React.Component {
                           </div>
                         </div> */}
                         <div>
-                          <h3
-                            style={{
-                              color: "white",
-                              textAlign: "center",
-                              padding: "0.5em"
-                            }}
-                          >
-                            Tube Bending Parts
-                          </h3>
+                          <h3 style={projectCaption}>Tube Bending Parts</h3>
                         </div>
                       </figure>
                     </div>
@@ -119,13 +118,7 @@ class Project extends React.Component {
                           </div>
                         </div> */}
                         <div>
-                          <h3
-                            style={{
-                              color: "white",
-                              textAlign: "center",
-                              padding: "0.5em"
-                            }}
-                          >
+                          <h3 style={projectCaption}>
                             Press tool for casting trimming
                           </h3>
                         </div>
@@ -156,13 +149,7 @@ class Project extends React.Component {
                           </div>
                         </div> */}
                         <div>
-                          <h3
-                            style={{
-                              color: "white",
-                              textAlign: "center",
-                              padding: "0.5em"
-                            }}
-                          >
+                          <h3 style={projectCaption}>
                             Match plates for Sand Casting
                           </h3>
                         </div>

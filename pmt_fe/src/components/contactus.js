@@ -1,11 +1,21 @@
 import React from "react";
 import bgImage2 from "../images/main-slider/image-6-1.jpg";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 class ContactUs extends React.Component {
+  constructor(props) {
+    super(props);
+    this.sendEmail = this.sendEmail.bind(this);
+  }
+
+  sendEmail() {
+    
+  }
+
   componentDidMount() {
     window.scrollTo(0, 0);
   }
+
   render() {
     return (
       <div>
@@ -23,7 +33,7 @@ class ContactUs extends React.Component {
           {/* <!--Page Info--> */}
           <div className="page-info">
             <div className="auto-container clearfix">
-              <div className="pull-left" style={{display:'none'}}>
+              <div className="pull-left" style={{ display: "none" }}>
                 <ul className="social-icon-one">
                   <li className="share">Share on :</li>
                   <li>
@@ -95,6 +105,7 @@ class ContactUs extends React.Component {
                           className="theme-btn btn-style-one"
                           type="submit"
                           name="submit-form"
+                          onClick={this.sendEmail}
                         >
                           Send Now
                         </button>
@@ -128,7 +139,6 @@ class ContactUs extends React.Component {
                     Rajasthan, IN
                   </li>
                 </ul>
-                
               </div>
             </div>
           </div>
