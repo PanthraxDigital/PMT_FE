@@ -1,8 +1,12 @@
 import React from "react";
 import WorkProcess from "./HomePage/workProcess";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 class AboutUs extends React.Component {
+  constructor(props) {
+    super(props);
+    this.props.menuSelected(2);
+  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }

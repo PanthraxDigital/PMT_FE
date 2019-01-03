@@ -6,6 +6,7 @@ class ContactUs extends React.Component {
   constructor(props) {
     super(props);
     this.sendEmail = this.sendEmail.bind(this);
+    this.props.menuSelected(6);
   }
 
   sendEmail() {

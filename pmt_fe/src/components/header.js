@@ -2,7 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 class Header extends React.Component {
+  constructor(props) {
+    super(props);
+    //alert(this.props.menuHighLighted);
+    this.state = {
+      selected: this.props.menuHighLighted
+    };
+  }
+
   render() {
+    console.log("state " + this.state.selected);
+
     return (
       <div>
         {/* <!-- Main Header --> */}
@@ -136,22 +146,37 @@ class Header extends React.Component {
 
                   <div className="navbar-collapse collapse clearfix">
                     <ul className="navigation clearfix">
-                      <li className="current dropdown">
+                      <li
+                        className="dropdown"
+                        className={this.state.selected == 1 ? "current" : ""}
+                      >
                         <Link to="/">Home</Link>
                       </li>
-                      <li>
+                      <li
+                      // className={this.state.selected == 2 ? "current" : ""}
+                      >
                         <Link to="/aboutus">About Us</Link>
                       </li>
-                      <li className="dropdown">
+                      <li
+                        className="dropdown"
+                        // className={this.state.selected == 3 ? "current" : ""}
+                      >
                         <Link to="/services">Services</Link>
                       </li>
-                      <li>
+                      <li
+                      // className={this.state.selected == 4 ? "current" : ""}
+                      >
                         <Link to="/machines">Machines</Link>
                       </li>
-                      <li className="dropdown">
+                      <li
+                        className="dropdown"
+                        // className={this.state.selected == 5 ? "current" : ""}
+                      >
                         <Link to="/projects">Projects</Link>
                       </li>
-                      <li>
+                      <li
+                      // className={this.state.selected == 6 ? "current" : ""}
+                      >
                         <Link to="/contactus">Contact us</Link>
                       </li>
                     </ul>

@@ -8,11 +8,26 @@ import Services from "../components/services";
 import Machines from "../components/machine";
 
 class MainRoute extends React.Component {
+  constructor(props) {
+    super(props);
+    this.menuSelected = this.menuSelected.bind(this);
+  }
+
+  menuSelected(menuId) {
+    this.props.menuSelectedHighLightFn(1);
+  }
+
   render() {
     return (
       <Switch>
-        <Route path="/aboutus" component={Aboutus} />
-        <Route path="/contactus" component={Contactus} />
+        <Route
+          path="/aboutus"
+          render={() => <Aboutus menuSelected={this.menuSelected} />}
+        />
+        <Route
+          path="/contactus"
+          render={() => <Contactus menuSelected={this.menuSelected} />}
+        />
         <Route path="/projects" component={Projects} />
         <Route path="/services" component={Services} />
         <Route path="/machines" component={Machines} />
